@@ -1,0 +1,11 @@
+#XmlFile: cwm_APP_SYSTEMCONTROL.xml
+#IcwpFile: myFirstParameterSet_system.out
+#Domain: myFirstParameterSet
+#Instance: system
+#XmlVersion: 2023-10-05;5.03.00.0.1373
+#PV: 
+( 03 00 ) 64 00 ;
+( 01 00 ) 01 00 ;
+( 01 14 ) 64 00 ;
+( 00 14 ) 5A 00 ;
+( 03 14 ) 1C 10 ;

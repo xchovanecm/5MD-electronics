@@ -1,0 +1,14 @@
+/*********************************************************************************************************************/
+/*Global variables*/
+/*********************************************************************************************************************/
+uint8_t ClearFaultRequest;
+int32_t MotorSpeed_rpm;
+
+CONST int ADC_VAl_25pct = 1024;
+CONST int ADC_VAl_50pct = 2048;
+CONST int ADC_VAl_75pct = 3072;
+ 
+CONST int STOP_MOTOR =0;
+CONST int RUN_MOTOR  =1;
+ 
+CONST int MAX_SPEED = 16383;

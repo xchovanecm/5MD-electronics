@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ifxmlcfg version="1.3.3">
+	<checksum>tbd</checksum>
+	<version label="2023-10-05;5.03.00.0.1373" />
+	<disclaimer file="disclaimer.txt" />
+	<moduledesc name="APP_Scripting" description="iMOTION Scripting function " exporter="export.py" singleton="0" hide="0" />
+	<usesPython />
+	<helpidprefix name="MCE::" />
+	<verticalcontainer margins="0;0;0;0">
+		<include>$LibDir$./cwm_APP_Scripting.xml</include>
+	</verticalcontainer>
+</ifxmlcfg>

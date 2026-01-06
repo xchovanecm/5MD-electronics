@@ -1,0 +1,472 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ifxmlcfg version="1.3.3">
+	<checksum />
+	<version label="2022-12-21;5.01.00.5.1085" />
+	<moduledesc name="OperationView" description="Dynamic View" exporter="" singleton="1" hide="0" />
+	<usesPython />
+	<disclaimer file="disclaimer.txt" />
+	<loadsaveallowed value="1" />
+	<pythonstartup file="$LibDir$./dashboard/generated/cwd_dashboard_imports.py" afterinit="1" />
+	<pythonstartup file="$LibDir$./dashboard/cwd_dashboard.py" afterinit="1" />
+	<pythonstartup file="$LibDir$./dashboard/generated/cwd_dashboard_math.py" afterinit="1" />
+	<pythonstartup file="$LibDir$./dashboard/generated/cwd_dashboard_validate.py" afterinit="1" />
+	<pxml file="$LibDir$./../MotionControlEngine_parameter.pxml" define="IPC_PXML" />
+	<help helpurl="qthelp://infineon.com.imotionsolutiondesigner.0.6.3/imotionsolutiondesigner/index.html" helpqhc="$LibDir$../help/MotionControlEngine.qhc" tooltip="iMOTION MCE help" mode="1" />
+	<helpidprefix name="MCE::" />
+	<!-- <helpidprefix name="MCE::" /> -->
+	<infosource forumurl="https://community.infineon.com/t5/iMOTION-controller-driver-IPM/bd-p/iMOTIONControllerSmartDriverSmartIPM" tooltip="iMOTION&lt;sup&gt;TM&lt;/sup&gt; Forum" />
+	<verticalcontainer color="230;232;237">
+		<timer define="INIT_PYTHON" visible="false" run="1" singleShot="1" interval="1">
+			<!--default dashboard at startup-->
+			<action event="changed" cmd="runScript" data="SetParamViewColumn(PARAMTREE,2,0,-1);SetParamViewColumn(PARAMTREE,3,0,-1);SetParamViewColumn(PARAMTREE,4,0,-1);SetParamViewColumn(PARAMTREE,5,1,150);SetParamViewColumn(PARAMTREE,6,1,50);SetParamViewColumn(PARAMTREE,8,0,-1);SetParamViewColumn(PARAMTREE,9,0,-1);SetParamViewColumn(PARAMTREE,10,0,-1);SetParamViewColumn(PARAMTREE,11,0,-1);SetParamViewColumn(PARAMTREE,12,0,-1)" />
+			<!-- PFC dashboards -->
+			<action event="changed" cmd="setDef" data="vc_dashboard_menubar_pfc.visible=PFC_enabled_status" />
+
+			<!-- PFC related widgets -->
+			<action event="changed" cmd="setDef" data="PFC_START.visible=PFC_enabled_status" />
+			<action event="changed" cmd="setDef" data="PFC_STOP.visible=PFC_enabled_status" />
+			<action event="changed" cmd="setDef" data="hc_PFC_LED.visible=PFC_enabled_status" />
+			<action event="changed" cmd="setDef" data="vc_PFC_Faults.visible=PFC_enabled_status" />
+
+		</timer>
+		<!--    <timer define="INIT_PARAMETER" visible="false" run="1" singleShot="1" interval="500">
+      <action event="changed" cmd="runScript" data="SetRefresh(ParApi_mce2.mce2.FW_Version,0)"/>
+      <action event="changed" cmd="runScript" data="SetRefresh(ParApi_mce2.mce2.iMOTION_ID,0)"/>
+      <action event="changed" cmd="runScript" data="SetRefresh(ParApi_mce2.mce2.ChipID,0)"/>
+    </timer>-->
+
+		<doublespinbox define="val_hall_visible" visible="false" />
+		<timer visible="false" define="timer_hall_visible" interval="1000" singleShot="1" run="0" />
+
+<!--
+******************************************************************************************************************
+******************************************** Start of visible content ********************************************
+******************************************************************************************************************
+-->
+
+<!--
+***************************************************
+**** Title bar
+***************************************************
+-->
+<horizontalcontainer size="-1;30" Class="dashboard_title">
+	<text size="2;-1" />
+	<!--left margin-->
+	<text define="text_dashboard_title_bar" label="Target not connected" Class="dashboard_title" />
+	<stretch />
+	<horizontalcontainer visible="false" size="-1;-1" color="249;116;20" define="hc_internal">
+		<button define="btn_internal" size="100;-1" label="show internal" />
+	</horizontalcontainer>
+
+	<button define="sync_from_target" size="170;-1" label="Sync from Target" Class="dashboard_button_main" tooltip="Set desired values based on Actual values" visible="false" />
+
+
+	<button define="BUTTON_DESCRIPTION_HIDE" visible="false" size="40;28" Class="dashboard_tools_pressed" tooltip="hide description window" icon="$SD-Assets$IconsPNG/Cooment_white.png">
+		<action event="clicked" cmd="setDef" data="DESCRIPTION_WINDOW.visible=0;BUTTON_DESCRIPTION_HIDE.visible=0;BUTTON_DESCRIPTION_SHOW.visible=1" />
+	</button>
+	<button define="BUTTON_DESCRIPTION_SHOW" size="40;28" Class="dashboard_tools_unpressed" tooltip="show description window" icon="$SD-Assets$IconsPNG/Groop-2_white.png">
+		<action event="clicked" cmd="setDef" data="DESCRIPTION_WINDOW.visible=1;BUTTON_DESCRIPTION_HIDE.visible=1;BUTTON_DESCRIPTION_SHOW.visible=0" />
+	</button>
+</horizontalcontainer>
+
+<splitcontainer define="SPLITTER" color="230;232;237">			<!-- color="230;232;237" IFX_Page_Background-->
+
+<!--
+***************************************************
+**** Parameter Tree with button
+***************************************************
+-->
+			<groupcontainer define="PARAMTREE_group" sizepolicy="minimum;minimum" color="244;244;244" stretchfactor="1" visible="true">				<!--IFX_LightColor-->
+				<paramtree define="PARAMTREE" pxml="IPC_PXML" Class="parameter_tree" />
+			</groupcontainer>
+
+			<!--
+***************************************************
+**** Dashboard Area
+***************************************************
+-->
+			<!--
+...................................................
+Navigation Column
+...................................................
+-->
+			<verticalcontainer color="255;255;255" size="-1;-1" margins="0;0;0;0">
+				<!-- Tabs -->
+				<verticalcontainer size="-1;-1" define="vcNavigation" color="255;255;255" sizepolicy="expanding;expanding" margins="0;0;0;0">
+					<var define="HIDE.all" />
+					<include>	$LibDir$./dashboard/generated/cwd_dashboards_math_dashboards.xml </include>
+					<math visible="false" define="HIDEALL" formula="HIDE.all">
+						<action event="changed" cmd="setDef" data="hc_help.visible=0" />
+					</math>
+
+					<verticalcontainer color="255;255;255" size="-1;70">
+						<!-- <stretch /> -->
+						<groupcontainer label="Parameter set select Config Wizard" color="255;255;255" size="-1;60" Class="groupcontainerFont">
+							<horizontalcontainer label="Parameter set select Config Wizard" color="255;255;255">
+								<combo size="-1;-1" define="dashboard_parset_selection" tooltip="Parameter set selected in config wizard." enabled="0" Class="dashboard_input">
+									<item label="myFirstParameterSet" value="0" />
+								</combo>
+							</horizontalcontainer>
+						</groupcontainer>
+						<!-- <stretch /> -->
+					</verticalcontainer>
+					<include>$LibDir$./dashboard/generated/cwd_dashboards_explorer_menu.xml </include>
+					<verticalcontainer color="250;250;250" sizepolicy="fixed;expanding" />
+					<horizontalcontainer color="250;250;250">
+						<!-- <button define="btn_update_all" label="Update all" size="-1;22" />
+						<button define="btn_save_all" label="Save all" size="-1;22" /> -->
+						<button define="btn_session_changes" label="Get changes" size="120;-1" font="Helvetica,10,-1,0,70,0,0,0,0,0,Regular" visible="false" />
+					</horizontalcontainer>
+				</verticalcontainer>
+				<stretch />
+			</verticalcontainer>
+			<verticalcontainer color="230;232;237" margins="0;0;0;0">
+				<horizontalcontainer color="230;232;237" margins="0;0;0;0">
+					<verticalcontainer color="230;232;237">
+							<verticalcontainer color="250;250;0" margins="0;0;0;0">
+								<horizontalcontainer color="230;232;237">
+									<verticalcontainer define="VC_DASHBOARDS" color="250;250;250" scroll="true" size="700;-1">
+										<include>$LibDir$./dashboard/generated/cwd_dashboards_dashboard_imports.xml </include>
+									</verticalcontainer>
+									<horizontalcontainer size="-1;-1" color="250;250;250">
+										<horizontalcontainer size="-1;-1" color="250;250;250" scroll="true" define="hc_help">
+											<helpbrowser define="HELP1" size="-1;-1" />
+										</horizontalcontainer>
+									</horizontalcontainer>
+								</horizontalcontainer>
+							</verticalcontainer>
+
+						<groupcontainer color="250;250;250" visible="true" define="Controlpanel" size="-1;300">
+							<verticalcontainer color="250;250;250" visible="true" sizepolicy="expanding;expanding">
+								<horizontalcontainer color="250;250;250" visible="true" sizepolicy="expanding;expanding">
+									<!-- Start, Stop & Clear Fault Buttons -->
+									<verticalcontainer color="250;250;250" size="170;-1">
+										<!-- Status LEDs -->
+										<horizontalcontainer color="250;250;250" size="-1;20" visible="true">
+											<led data="ckb_motor_running" bitmask="1" offcolor="ff2121;ba0000" oncolor="2be81e;25931d" size="15;15" />
+											<text define="LED_MotorON" label="Motor Running" font="Helvetica,10,-1,0,70,0,0,0,0,0,Regular" />
+										</horizontalcontainer>
+										<horizontalcontainer color="250;250;250" size="-1;20" visible="true">
+											<led data="ckb_target_connect" bitmask="1" offcolor="ff2121;ba0000" oncolor="2be81e;25931d" size="15;15" />
+											<text define="LED_MotorON" label="Target Connected" font="Helvetica,10,-1,0,70,0,0,0,0,0,Regular" />
+										</horizontalcontainer>
+										<horizontalcontainer define="hc_PFC_LED" color="250;250;250" size="-1;20" visible="false">
+											<led data="ckb_PFC_running" bitmask="1" offcolor="ff2121;ba0000" oncolor="2be81e;25931d" size="15;15" />
+											<text define="LED_PFCON" label="PFC Enabled" visible="true" font="Helvetica,10,-1,0,70,0,0,0,0,0,Regular" />
+										</horizontalcontainer>
+										<horizontalcontainer color="250;250;250" sizepolicy="expanding;expanding" />
+										<button define="BUTTON_START" size="-1;30" label="Start Motor" Class="dashboard_button_main" enabled="false">
+											<action event="clicked" cmd="setDef" data="ParOut.APP_MOTOR0.APP_MOTOR0.Command.S_BITFIELD=0" />
+											<action event="clicked" cmd="setDef" data="ParOut.APP_MOTOR0.APP_MOTOR0.Command.S_BITFIELD=1" />
+										</button>
+										<button define="BUTTON_STOP" size="-1;30" label="Stop Motor" Class="dashboard_button_main" enabled="false">
+											<action event="clicked" cmd="setDef" data="ParOut.APP_MOTOR0.APP_MOTOR0.Command.S_BITFIELD=1" />
+											<action event="clicked" cmd="setDef" data="ParOut.APP_MOTOR0.APP_MOTOR0.Command.S_BITFIELD=0" />
+										</button>
+										<timer visible="false" define="check_pfc_status_delay" interval="500" singleShot="0" run="0" />
+										<timer visible="false" define="help_doc_click_timer" interval="300" singleShot="1" run="0" />
+										<button define="PFC_START" size="-1;30" visible="false" label="Enable PFC" Class="dashboard_button_main" enabled="false">
+											<action event="clicked" cmd="setDef" data="ParOut.APP_PFC.APP_PFC.Command.S_BITFIELD=0" />
+											<action event="clicked" cmd="setDef" data="ParOut.APP_PFC.APP_PFC.Command.S_BITFIELD=1" />
+											<action event="clicked" cmd="setDef" data="ckb_PFC_running.checked=1" />
+											<action event="clicked" cmd="setDef" data="PFC_START.enabled=0" />
+											<action event="clicked" cmd="setDef" data="PFC_STOP.enabled=1" />
+										</button>
+										<button define="PFC_STOP" size="-1;30" visible="false" label="Disable PFC" Class="dashboard_button_main" enabled="false">
+											<action event="clicked" cmd="setDef" data="ParOut.APP_PFC.APP_PFC.Command.S_BITFIELD=1" />
+											<action event="clicked" cmd="setDef" data="ParOut.APP_PFC.APP_PFC.Command.S_BITFIELD=0" />
+											<action event="clicked" cmd="setDef" data="ckb_PFC_running.checked=0" />
+											<action event="clicked" cmd="setDef" data="PFC_START.enabled=1" />
+											<action event="clicked" cmd="setDef" data="PFC_STOP.enabled=0" />
+										</button>
+										<button define="CLEAR_FAULT" size="-1;30" label="Clear Fault" Class="dashboard_button_main" enabled="false">
+											<action event="clicked" cmd="setDef" data="ParOut.APP_MOTOR0.APP_MOTOR0.FaultClear.S_DIRECT=1" />
+											<action event="clicked" cmd="setDef" data="ParOut.APP_MOTOR0.APP_MOTOR0.FaultClear.S_DIRECT=0" />
+										</button>
+									</verticalcontainer>
+
+									<stretch />
+
+									<!-- CPU Load -->
+									<verticalcontainer color="250;250;250" size="120;-1">
+										<text define="TextDefine_2" label="CPU Load" font="Helvetica,10,-1,0,70,0,0,0,0,0,Regular" />
+
+										<math define="CPULOAD" visible="false" formula="ParApi_mceos.mceos.CPUloadPeak.0.1 * 0.1" />
+										<horizontalcontainer color="250;250;250" size="-1;-1">
+											<horizontalcontainer color="250;250;250" size="100;-1">
+												<thermo define="THERMO" data="CPULOAD" min="0" max="100" alarmlevel="90" normalcolor="76;164;96" alarmcolor="205;0;47" orientation="2" alignment="4" Class="iMOTION_DASHBOARD_HEADING" />
+												<verticalcontainer color="250;250;250">
+													<horizontalcontainer color="250;250;250" define="hc_current_cpu_load">
+														<text define="current_cpu_load" label="" Class="iMOTION_fix_font" size="40;-1" />
+													</horizontalcontainer>
+												</verticalcontainer>
+											</horizontalcontainer>
+										</horizontalcontainer>
+
+										<horizontalcontainer color="250;250;250" size="-1;-1">
+											<button define="Text_CPULOAD" label="" Class="dashboard_button_as_text" />
+										</horizontalcontainer>
+										<button define="CLEAR_CPU_PEAK" size="-1;30" label="Clear peak" Class="dashboard_button_main" enabled="false">
+										</button>
+									</verticalcontainer>
+
+									<stretch />
+
+									<!-- Speed Settings -->
+									<verticalcontainer color="250;250;250" size="260;-1">
+										<horizontalcontainer color="250;250;250" size="-1;30">
+											<text label="Target speed:" size="105;-1" font="Helvetica,10,-1,0,70,0,0,0,0,0,Regular" />
+											<doublespinbox define="dashboard_targetspeed" suffix=" RPM" step="10" default="0." visible="true" size="140;-1" Class="dashboard_input">
+												<action event="changed" cmd="setDef" data="SLIDER.SPEED=dashboard_targetspeed" />
+											</doublespinbox>
+											<horizontalcontainer color="250;250;250" size="-1;-1" />
+											<horizontalcontainer color="250;250;250" size="-1;-1" />
+										</horizontalcontainer>
+										<horizontalcontainer color="250;250;250">
+											<slider define="SLIDER.SPEED" range="0;12000" size="230;30" orientation="1" step="10" alignment="4">
+												<action event="changed" cmd="setDef" data="dashboard_targetspeed=SLIDER.SPEED" />
+											</slider>
+										</horizontalcontainer>
+										<math define="math_MotorSpeed" formula="SLIDER.SPEED*MotorRotation" visible="false" />
+										<timer visible="false" define="BoardToDashboard_target_speed_deadtime" interval="102" singleShot="1" run="0" />
+										<timer visible="false" define="DashboardToBoard_target_speed" interval="500" singleShot="1" run="0" />
+										<timer visible="false" define="BoardToDashboard_target_speed" interval="100" singleShot="1" run="0" />
+										<timer visible="false" define="UpdateSpeedInfo" interval="10" singleShot="1" run="0" />
+										<horizontalcontainer color="250;250;250" size="-1;10" />
+										<horizontalcontainer color="250;250;250" size="-1;50">
+											<verticalcontainer color="250;250;250" size="-1;-1">
+												<text label="Motor Rotation:" font="Helvetica,10,-1,0,70,0,0,0,0,0,Regular" />
+											</verticalcontainer>
+											<verticalcontainer define="vc_MotorRotation" color="250;250;250" size="-1;-1" enabled="false">
+												<radio define="MotorRotation">
+													<radiobutton label="Clockwise" value="1" Class="iMOTION_fix_font" />
+													<radiobutton label="Counter Clockwise" value="-1" Class="iMOTION_fix_font" />
+												</radio>
+											</verticalcontainer>
+										</horizontalcontainer>
+										<!-- System Faults -->
+										<horizontalcontainer color="250;250;250">
+											<horizontalcontainer color="250;250;250" size="-1;-1">
+												<math define="Math_MOTOR_speed" formula="ParIn.APP_MOTOR0.APP_MOTOR0.MotorSpeed_in.S_MTR_SPEED_rpm.physvalue" visible="false" font="Helvetica,10,-1,0,70,0,0,0,0,0,Regular" color="250;250;250" />
+												<button define="Text_MOTOR_speed" label="" visible="true" size="-1;-1" Class="dashboard_button_as_text" />
+											</horizontalcontainer>
+											<!-- <stretch /> -->
+											<groupcontainer color="250;250;250" label="System Faults" Class="iMOTION_fix_font" size="-1;-1">
+												<verticalcontainer color="250;250;250">
+													<horizontalcontainer color="250;250;250" size="-1;16">
+														<led data="MCE2.STATUS" bitmask="1024" oncolor="ff2121;ba0000" offcolor="2be81e;25931d" size="15;15" />
+														<text define="Software error_31" label="Execution" Class="iMOTION_question_dashboard" />
+													</horizontalcontainer>
+													<horizontalcontainer color="250;250;250" size="-1;16">
+														<led data="MCE2.STATUS" bitmask="4096" oncolor="ff2121;ba0000" offcolor="2be81e;25931d" size="15;15" />
+														<text define="Software error_31" label="Parameter Load" Class="iMOTION_question_dashboard" />
+													</horizontalcontainer>
+													<horizontalcontainer color="250;250;250" size="-1;16">
+														<led data="MCE2.STATUS" bitmask="8192" oncolor="ff2121;ba0000" offcolor="2be81e;25931d" size="15;15" />
+														<text define="Software error_31" label="Link Break" Class="iMOTION_question_dashboard" />
+													</horizontalcontainer>
+													<verticalcontainer color="250;250;250" size="-1;-1" />
+												</verticalcontainer>
+											</groupcontainer>
+										</horizontalcontainer>
+
+									</verticalcontainer>
+									<stretch />
+
+									<!-- Faults -->
+									<verticalcontainer color="250;250;250" size="160;-1">
+										<groupcontainer color="250;250;250" label=" Motor Control Faults" Class="iMOTION_fix_font">
+											<math visible="false" define="MCE2.STATUS" formula="ParOut.APP_MOTOR0.APP_MOTOR0.SwFaults.S_BITFIELD" />
+											<verticalcontainer color="250;250;250">
+												<horizontalcontainer color="250;250;250" size="-1;16">
+													<led data="MCE2.STATUS" bitmask="1" oncolor="ff2121;ba0000" offcolor="2be81e;25931d" size="15;15" />
+													<text define="FOC duration_24" label="GateKill" Class="iMOTION_question_dashboard" />
+												</horizontalcontainer>
+												<horizontalcontainer color="250;250;250" size="-1;16">
+													<led data="MCE2.STATUS" bitmask="2" oncolor="ff2121;ba0000" offcolor="2be81e;25931d" size="15;15" />
+													<text define="Over voltage_25" label="Critical Over voltage" Class="iMOTION_question_dashboard" />
+												</horizontalcontainer>
+												<horizontalcontainer color="250;250;250" size="-1;16">
+													<led data="MCE2.STATUS" bitmask="4" oncolor="ff2121;ba0000" offcolor="2be81e;25931d" size="15;15" />
+													<text define="Over voltage_25" label="Over voltage" Class="iMOTION_question_dashboard" />
+												</horizontalcontainer>
+												<horizontalcontainer color="250;250;250" size="-1;16">
+													<led data="MCE2.STATUS" bitmask="8" oncolor="ff2121;ba0000" offcolor="2be81e;25931d" size="15;15" />
+													<text define="Under voltage_26" label="Under voltage" Class="iMOTION_question_dashboard" />
+												</horizontalcontainer>
+												<horizontalcontainer color="250;250;250" size="-1;16">
+													<led data="MCE2.STATUS" bitmask="16" oncolor="ff2121;ba0000" offcolor="2be81e;25931d" size="15;15" />
+													<text define="Under voltage_26" label="Flux" Class="iMOTION_question_dashboard" />
+												</horizontalcontainer>
+												<horizontalcontainer color="250;250;250" size="-1;16">
+													<led data="MCE2.STATUS" bitmask="32" oncolor="ff2121;ba0000" offcolor="2be81e;25931d" size="15;15" />
+													<text define="Under voltage_26" label="GKPIN" Class="iMOTION_question_dashboard" />
+												</horizontalcontainer>
+												<horizontalcontainer color="250;250;250" size="-1;16">
+													<led data="MCE2.STATUS" bitmask="64" oncolor="ff2121;ba0000" offcolor="2be81e;25931d" size="15;15" />
+													<text define="Overheat_27" label="Overheat" Class="iMOTION_question_dashboard" />
+												</horizontalcontainer>
+												<horizontalcontainer color="250;250;250" size="-1;16">
+													<led data="MCE2.STATUS" bitmask="128" oncolor="ff2121;ba0000" offcolor="2be81e;25931d" size="15;15" />
+													<text define="Startup failure_28" label="Rotor Lock" Class="iMOTION_question_dashboard" />
+												</horizontalcontainer>
+												<horizontalcontainer color="250;250;250" size="-1;16">
+													<led data="MCE2.STATUS" bitmask="256" oncolor="ff2121;ba0000" offcolor="2be81e;25931d" size="15;15" />
+													<text define="Speed feedback_29" label="Phase Loss" Class="iMOTION_question_dashboard" />
+												</horizontalcontainer>
+												<horizontalcontainer color="250;250;250" size="-1;16">
+													<led data="MCE2.STATUS" bitmask="512" oncolor="ff2121;ba0000" offcolor="2be81e;25931d" size="15;15" />
+													<text define="Over current_30" label="Current Offset" Class="iMOTION_question_dashboard" />
+												</horizontalcontainer>
+												<!-- <horizontalcontainer>
+							  <led data="MCE2.STATUS" bitmask="1024" oncolor="red" offcolor="green" size="15;15"/>
+							  <text define="Software error_31" label="Execution"Class="iMOTION_question_dashboard"/>
+							</horizontalcontainer>
+							<horizontalcontainer>
+							  <led data="MCE2.STATUS" bitmask="4096" oncolor="red" offcolor="green" size="15;15"/>
+							  <text define="Software error_31" label="ParameterLoad"Class="iMOTION_question_dashboard"/>
+							</horizontalcontainer>
+							<horizontalcontainer>
+							  <led data="MCE2.STATUS" bitmask="8192" oncolor="red" offcolor="green" size="15;15"/>
+							  <text define="Software error_31" label="LinkBreak"Class="iMOTION_question_dashboard"/>
+							</horizontalcontainer> -->
+												<horizontalcontainer color="250;250;250" size="-1;16">
+													<led data="MCE2.STATUS" bitmask="16384" oncolor="ff2121;ba0000" offcolor="2be81e;25931d" size="15;15" />
+													<text define="Software error_31" label="Hall Timeout" Class="iMOTION_question_dashboard" />
+												</horizontalcontainer>
+												<horizontalcontainer color="250;250;250" size="-1;16">
+													<led data="MCE2.STATUS" bitmask="32768" oncolor="ff2121;ba0000" offcolor="2be81e;25931d" size="15;15" />
+													<text define="Software error_31" label="Hall Invalid" Class="iMOTION_question_dashboard" />
+												</horizontalcontainer>
+												<verticalcontainer color="250;250;250" size="-1;-1" />
+											</verticalcontainer>
+										</groupcontainer>
+									</verticalcontainer>
+
+									<stretch />
+
+									<!-- PFC Faults -->
+									<verticalcontainer define="vc_PFC_Faults" color="250;250;250" size="175;-1">
+										<groupcontainer color="250;250;250" label="PFC Faults" Class="iMOTION_fix_font">
+											<verticalcontainer color="250;250;250">
+												<horizontalcontainer color="250;250;0" visible="false" define="hc_pfc_faults">
+													<math define="APP_PFC.FaultFlags.math" formula="ParOut.APP_PFC.APP_PFC.FaultFlags.S_BITFIELD" />
+													<math define="APP_PFC.SwFaults.math" formula="ParOut.APP_PFC.APP_PFC.SwFaults.S_BITFIELD" />
+													<doublespinbox define="PFC.FaultFlags_spnbox" default="0." size="50;-1" />
+													<math define="PFC.FaultFlags" formula="PFC.FaultFlags_spnbox" />
+												</horizontalcontainer>
+												<horizontalcontainer color="250;250;250" size="-1;16">
+													<led data="PFC.FaultFlags" bitmask="1" oncolor="ff2121;ba0000" offcolor="2be81e;25931d" size="15;15" />
+													<text label="Over current" Class="iMOTION_question_dashboard" />
+												</horizontalcontainer>
+												<horizontalcontainer color="250;250;250" size="-1;16">
+													<led data="PFC.FaultFlags" bitmask="2" oncolor="ff2121;ba0000" offcolor="2be81e;25931d" size="15;15" />
+													<text label="DC bus open-loop" Class="iMOTION_question_dashboard" />
+												</horizontalcontainer>
+												<horizontalcontainer color="250;250;250" size="-1;16">
+													<led data="PFC.FaultFlags" bitmask="4" oncolor="ff2121;ba0000" offcolor="2be81e;25931d" size="15;15" />
+													<text label="DC bus over-voltage" Class="iMOTION_question_dashboard" />
+												</horizontalcontainer>
+												<horizontalcontainer color="250;250;250" size="-1;16">
+													<led data="PFC.FaultFlags" bitmask="8" oncolor="ff2121;ba0000" offcolor="2be81e;25931d" size="15;15" />
+													<text label="AC input frequency" Class="iMOTION_question_dashboard" />
+												</horizontalcontainer>
+												<horizontalcontainer color="250;250;250" size="-1;16">
+													<led data="PFC.FaultFlags" bitmask="16" oncolor="ff2121;ba0000" offcolor="2be81e;25931d" size="15;15" />
+													<text label="AC input brown-out" Class="iMOTION_question_dashboard" />
+												</horizontalcontainer>
+												<horizontalcontainer color="250;250;250" size="-1;16">
+													<led data="PFC.FaultFlags" bitmask="32" oncolor="ff2121;ba0000" offcolor="2be81e;25931d" size="15;15" />
+													<text label="AC input over-voltage" Class="iMOTION_question_dashboard" />
+												</horizontalcontainer>
+												<horizontalcontainer color="250;250;250" size="-1;16">
+													<led data="PFC.FaultFlags" bitmask="64" oncolor="ff2121;ba0000" offcolor="2be81e;25931d" size="15;15" />
+													<text label="AC input drop-out" Class="iMOTION_question_dashboard" />
+												</horizontalcontainer>
+												<horizontalcontainer color="250;250;250" size="-1;16">
+													<led data="PFC.FaultFlags" bitmask="128" oncolor="ff2121;ba0000" offcolor="2be81e;25931d" size="15;15" />
+													<text label="Current offset" Class="iMOTION_question_dashboard" />
+												</horizontalcontainer>
+												<horizontalcontainer color="250;250;250" size="-1;15" sizepolicy="expanding;expanding" />
+												<verticalcontainer color="250;250;250" size="-1;-1" />
+											</verticalcontainer>
+										</groupcontainer>
+									</verticalcontainer>
+								</horizontalcontainer>
+								<horizontalcontainer color="250;250;250">
+									<horizontalcontainer color="250;250;250" sizepolicy="expanding;expanding" />
+									<text label="Runtime:  " Class="iMOTION_fix_font" />
+									<math visible="true" define="Target_Runtime" Class="iMOTION_fix_font" />
+								</horizontalcontainer>
+							</verticalcontainer>
+						</groupcontainer>
+					</verticalcontainer>
+					<!-- Description - right window -->
+					<!--<groupcontainer color="249;116;20" define="DESCRIPTION_WINDOW" visible="false" size="240;-1">
+						<horizontalcontainer color="250;250;250" scroll="1">
+							<verticalcontainer color="250;250;250">
+								<horizontalcontainer size="-1;30" color="249;116;20">
+									<text size="2;-1" />
+									<text label="Verification:" Class="iMOTION_Dashboard_dashboard_title" />
+									<stretch />
+								</horizontalcontainer>
+								<editbox define="DESCRIPTION_TEXT" wordwrap="1" tooltip="Detailed description" font="Helvetica,11,0,0,0,0,0,0,0,0,Regular" Class="groupcontainerFont" />
+							</verticalcontainer>
+						</horizontalcontainer>
+
+					</groupcontainer>-->
+					<verticalcontainer label="" color="249;116;20" define="DESCRIPTION_WINDOW" visible="false" size="240;-1">
+						<verticalcontainer color="250;250;250">
+							<horizontalcontainer size="-1;30" color="249;116;20">
+								<text size="2;-1" />
+								<text label="Verification:" Class="iMOTION_Dashboard_dashboard_title" />
+								<stretch />
+							</horizontalcontainer>
+							<editbox define="DESCRIPTION_TEXT" wordwrap="1" tooltip="Detailed description" font="Helvetica,11,0,0,0,0,0,0,0,0,Regular" Class="groupcontainerFont" />
+						</verticalcontainer>
+					</verticalcontainer>
+
+
+				</horizontalcontainer>
+			</verticalcontainer>
+		</splitcontainer>
+
+
+		<!-- Unvisible Help variables -->
+		<checkbox define="ckb_motor_running" visible="false" />
+		<checkbox define="ckb_target_connect" visible="false">
+			<action event="checked" cmd="setDef" data="TIMER_Runtime.run=1" />
+			<action event="unchecked" cmd="setDef" data="TIMER_Runtime.run=0" />
+		</checkbox>
+		<checkbox define="ckb_PFC_status" visible="false">
+			<action event="checked" cmd="setDef" data="PFC_enabled_status=1" />
+			<action event="unchecked" cmd="setDef" data="PFC_enabled_status=0" />
+		</checkbox>
+		<edit define="PFC_enabled_status" visible="false">
+			<!-- PFC dashboards -->
+			<action event="changed" cmd="setDef" data="vc_dashboard_menubar_pfc.visible=PFC_enabled_status" />
+
+			<!-- PFC related widgets -->
+			<action event="changed" cmd="setDef" data="PFC_START.visible=PFC_enabled_status" />
+			<action event="changed" cmd="setDef" data="PFC_STOP.visible=PFC_enabled_status" />
+			<action event="changed" cmd="setDef" data="hc_PFC_LED.visible=PFC_enabled_status" />
+			<action event="changed" cmd="setDef" data="vc_PFC_Faults.visible=PFC_enabled_status" />
+		</edit>
+		<checkbox define="ckb_PFC_running" visible="false" />
+		<button define="btn_trigger_read_parameter" visible="false" />
+		<timer visible="false" define="TIMER_Runtime" interval="1000" singleShot="0" run="0">
+			<!--<action event="changed" cmd="setDef" data="Target_Runtime=ParApi_mceos.mceos.RunTimeCounter.S_SYS_SCLK1_s.physvalue"/>-->
+		</timer>
+		<button define="btn_update_target_speed" visible="false" />
+
+		<!--
+	  this button can be clicked from other modules in order to update
+	  all pfc parameters (user input and readonly boxes)
+	  -->
+		<button define="btn_update_all_pfc_parameter_user_input_and_readonly_boxes" visible="false" />
+		<button define="btn_trigger_target_connected_settings" visible="false" />
+		<button define="btn_trigger_invalidate_parameter" visible="false" />
+		<checkbox define="ckb_update_target_speed" visible="false" />
+	</verticalcontainer>
+	<stretch />
+</ifxmlcfg>

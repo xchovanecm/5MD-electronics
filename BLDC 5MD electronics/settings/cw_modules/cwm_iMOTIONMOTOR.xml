@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ifxmlcfg version="1.3.3">
+	<checksum>tbd</checksum>
+	<version label="2022-12-21;5.01.00.5.1085" />
+	<disclaimer file="disclaimer.txt" />
+	<moduledesc name="iMOTION Motor Control Solution" description="iMOTION Motor Control Solution (description)" />
+	<usesPython />
+	<pythonstartup file="$ExeDir$Modules/showMain.py" afterinit="0" />
+	<pythonstartup file="$LibDir$./configWizard/cwm_iMOTIONMOTOR_ParameterInfo.py" afterinit="1" />
+	<pythonstartup file="$LibDir$./configWizard/iMOTIONMOTOR_deviceConfiguration.py" afterinit="1" />
+	<pythonstartup file="$LibDir$./configWizard/cwm_iMOTIONMOTOR_outputsToolTips.py" afterinit="1" />
+	<pythonstartup file="$LibDir$./configWizard/iMOTIONMOTOR_PARAMETERS/cwm_EXPLORER.py" afterinit="1" />
+	<pythonstartup file="$LibDir$./configWizard/cwm_iMOTIONMOTOR_Style.py" afterinit="1" />
+	<pythonstartup file="$LibDir$./configWizard/cwm_iMOTIONMOTOR_StyleClickChanger.py" afterinit="1" />
+	<pythonstartup file="$LibDir$./configWizard/cwm_iMOTIONMOTOR_MathFormulas.py" afterinit="1" />
+	<pythonstartup file="$LibDir$./configWizard/cwm_iMOTIONMOTOR_Style2.py" afterinit="1" />
+	<pythonstartup file="$LibDir$./configWizard/cwm_iMOTIONMOTOR_PFC_MATH.py" afterinit="1" />
+	<pythonstartup file="$LibDir$./configWizard/cwm_iMOTIONMOTOR_Math.py" afterinit="1" />
+	<pythonstartup file="$LibDir$./configWizard/cwm_iMOTIONMOTOR_Validate.py" afterinit="1" />
+	<pythonstartup file="$LibDir$./configWizard/iMOTIONMOTOR_COMMUNICATION/Communication.py" afterinit="1" />
+	<pythonstartup file="$LibDir$./configWizard/iMOTIONMOTOR_gpioAdc.py" afterinit="1" />
+	<pythonstartup file="$LibDir$./configWizard/iMOTIONMOTOR_PFC_GRAPHS.py" afterinit="1" />
+	<pythonstartup file="$LibDir$./configWizard/cwm_iMOTIONMOTOR_ParSetComm.py" afterinit="1" />
+	<pythonstartup file="$LibDir$./configWizard/iMOTIONMOTOR_deleteParSet.py" afterinit="1" />
+	<helpidprefix name="MCE::" />
+	<verticalcontainer margins="0;0;0;0">
+		<include>$LibDir$./cwm_iMOTIONMOTOR.xml</include>
+	</verticalcontainer>
+</ifxmlcfg>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScriptProject Version="1.0">
+  <ScriptFiles>
+    <ScriptFile Name="Globals.mcs" Path="" BuildAction="Compile" />
+    <ScriptFile Name="Script_Task0.mcs" Path="" BuildAction="Compile" />
+    <ScriptFile Name="Script_Task1.mcs" Path="" BuildAction="Compile" />
+  </ScriptFiles>
+  <ScriptProperties>
+    <ScriptProperty Name="SCRIPT_USER_VERSION" Value="1.0" />
+    <ScriptProperty Name="SCRIPT_TASK0_EXECUTION_PERIOD" Value="50" />
+    <ScriptProperty Name="SCRIPT_TASK1_EXECUTION_PERIOD" Value="10" />
+    <ScriptProperty Name="SCRIPT_START_COMMAND" Value="3" />
+    <ScriptProperty Name="SCRIPT_TASK0_EXECUTION_STEP" Value="10" />
+    <ScriptProperty Name="SCRIPT_TASK1_EXECUTION_STEP" Value="10" />
+  </ScriptProperties>
+</ScriptProject>

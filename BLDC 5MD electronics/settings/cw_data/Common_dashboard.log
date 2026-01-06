@@ -1,0 +1,890 @@
+10:25:08.983759 AM  [                 Common-Dashboard                 ] -  DEBUG  -: 
+--------------------------* OPENING 			 						
+--------------------------* DATE = 2025 :11: 04 
+--------------------------* PATH = C:/Users/urmin/Desktop/MOTOR/MOTOR/settings/cw_data/Common_dashboard.log 
+--------------------------* domain-instace =                  Common-Dashboard                 
+10:25:08.983759 AM  [                 Common-Dashboard                 ] -  DEBUG  -: PrintClass.Mode is  =  {'DEBUG': 0, 'INFO': 1, 'ERROR': 0, 'WARNING': 0}
+10:25:11.743626 AM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+10:45:25.304851 AM  [                 Common-Dashboard                 ] - INFO -: The sessions changes are: 
+10:45:47.164279 AM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 4.319051265716553
+10:46:06.878362 AM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 0.0011069774627685547
+10:47:04.173150 AM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 3.3479506969451904
+10:47:04.174146 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Other
+10:47:04.194078 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Other
+10:47:04.210025 AM  [                 Common-Dashboard                 ] - INFO -: Synced  VF Diagnostics
+10:47:04.226969 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Sense
+10:47:04.243419 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Loop
+10:47:04.262356 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Speed Loop
+10:47:04.279299 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Angle Estimation
+10:47:04.294249 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Starting
+10:47:04.313186 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Hall Feedback
+10:47:04.329134 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Open Loop
+10:47:04.344676 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Sense
+10:47:04.361162 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Loop
+10:47:04.376677 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC FF
+10:47:04.393182 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC ZC Detection
+10:47:04.411216 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Voltage Loop
+10:47:04.745712 AM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+10:47:04.993942 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Other
+10:47:05.010885 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Other
+10:47:05.026833 AM  [                 Common-Dashboard                 ] - INFO -: Synced  VF Diagnostics
+10:47:05.042289 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Sense
+10:47:05.057239 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Loop
+10:47:05.073185 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Speed Loop
+10:47:05.088135 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Angle Estimation
+10:47:05.104082 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Starting
+10:47:05.120029 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Hall Feedback
+10:47:05.134980 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Open Loop
+10:47:05.150437 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Sense
+10:47:05.165387 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Loop
+10:47:05.181334 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC FF
+10:47:05.196284 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC ZC Detection
+10:47:05.212230 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Voltage Loop
+10:47:53.835731 AM  [                 Common-Dashboard                 ] - INFO -: Successfully updated parameters. It took 1.1548738479614258 seconds to update parameters
+10:49:51.370862 AM  [                 Common-Dashboard                 ] - INFO -: Successfully updated parameters. It took 0.973992109298706 seconds to update parameters
+10:50:00.930616 AM  [                 Common-Dashboard                 ] - INFO -: Successfully updated parameters. It took 0.8130717277526855 seconds to update parameters
+10:50:09.863522 AM  [                 Common-Dashboard                 ] - INFO -: Successfully updated parameters. It took 1.0632917881011963 seconds to update parameters
+10:50:15.082320 AM  [                 Common-Dashboard                 ] - INFO -: The sessions changes are: 
+10:52:37.916284 AM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 3.328583002090454
+10:52:37.917279 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Other
+10:52:37.942874 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Other
+10:52:37.957758 AM  [                 Common-Dashboard                 ] - INFO -: Synced  VF Diagnostics
+10:52:37.973264 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Sense
+10:52:37.988796 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Loop
+10:52:38.004314 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Speed Loop
+10:52:38.018858 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Angle Estimation
+10:52:38.034225 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Starting
+10:52:38.050173 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Hall Feedback
+10:52:38.065629 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Open Loop
+10:52:38.081576 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Sense
+10:52:38.096526 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Loop
+10:52:38.111476 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC FF
+10:52:38.127423 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC ZC Detection
+10:52:38.142374 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Voltage Loop
+10:52:38.455578 AM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+10:52:38.700611 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Other
+10:52:38.718551 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Other
+10:52:38.735549 AM  [                 Common-Dashboard                 ] - INFO -: Synced  VF Diagnostics
+10:52:38.751150 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Sense
+10:52:38.767085 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Loop
+10:52:38.781707 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Speed Loop
+10:52:38.797299 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Angle Estimation
+10:52:38.812848 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Starting
+10:52:38.828361 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Hall Feedback
+10:52:38.844079 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Open Loop
+10:52:38.863563 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Sense
+10:52:38.878513 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Loop
+10:52:38.893463 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC FF
+10:52:38.909410 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC ZC Detection
+10:52:38.924360 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Voltage Loop
+10:52:49.569807 AM  [                 Common-Dashboard                 ] - INFO -: Successfully updated parameters. It took 0.8255057334899902 seconds to update parameters
+10:53:03.080498 AM  [                 Common-Dashboard                 ] - INFO -: Successfully updated parameters. It took 0.8168833255767822 seconds to update parameters
+10:53:21.575211 AM  [                 Common-Dashboard                 ] - INFO -: Successfully updated parameters. It took 1.2079827785491943 seconds to update parameters
+10:53:39.595975 AM  [                 Common-Dashboard                 ] - INFO -: The sessions changes are: 
+10:56:13.991233 AM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 3.3100414276123047
+10:56:13.992325 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Other
+10:56:14.014646 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Other
+10:56:14.030392 AM  [                 Common-Dashboard                 ] - INFO -: Synced  VF Diagnostics
+10:56:14.045986 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Sense
+10:56:14.060787 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Loop
+10:56:14.076394 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Speed Loop
+10:56:14.092054 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Angle Estimation
+10:56:14.106454 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Starting
+10:56:14.125405 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Hall Feedback
+10:56:14.140356 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Open Loop
+10:56:14.155809 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Sense
+10:56:14.171756 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Loop
+10:56:14.186705 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC FF
+10:56:14.201655 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC ZC Detection
+10:56:14.217602 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Voltage Loop
+10:56:14.498407 AM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+10:56:14.743264 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Other
+10:56:14.759713 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Other
+10:56:14.775660 AM  [                 Common-Dashboard                 ] - INFO -: Synced  VF Diagnostics
+10:56:14.794601 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Sense
+10:56:14.810220 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Loop
+10:56:14.825816 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Speed Loop
+10:56:14.840584 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Angle Estimation
+10:56:14.856225 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Starting
+10:56:14.872593 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Hall Feedback
+10:56:14.889877 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Open Loop
+10:56:14.904827 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Sense
+10:56:14.920773 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Loop
+10:56:14.935724 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC FF
+10:56:14.951671 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC ZC Detection
+10:56:14.967128 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Voltage Loop
+10:56:40.631192 AM  [                 Common-Dashboard                 ] - INFO -: Successfully updated parameters. It took 1.060966968536377 seconds to update parameters
+10:57:05.125079 AM  [                 Common-Dashboard                 ] - INFO -: Successfully updated parameters. It took 1.170783281326294 seconds to update parameters
+10:57:20.650110 AM  [                 Common-Dashboard                 ] - INFO -: Successfully updated parameters. It took 1.0374372005462646 seconds to update parameters
+11:00:29.952616 AM  [                 Common-Dashboard                 ] - INFO -: Reading Speed Loop dashboard
+11:00:49.286333 AM  [                 Common-Dashboard                 ] - INFO -: Reading Starting dashboard
+11:01:21.624786 AM  [                 Common-Dashboard                 ] - INFO -: Reading Hall Feedback dashboard
+11:01:26.748961 AM  [                 Common-Dashboard                 ] - INFO -: Reading Starting dashboard
+11:04:22.570216 AM  [                 Common-Dashboard                 ] - INFO -: Successfully updated parameters. It took 1.5184640884399414 seconds to update parameters
+11:04:49.068573 AM  [                 Common-Dashboard                 ] - INFO -: Successfully updated parameters. It took 1.306140661239624 seconds to update parameters
+11:05:06.612369 AM  [                 Common-Dashboard                 ] - INFO -: Successfully updated parameters. It took 1.2814624309539795 seconds to update parameters
+11:05:21.091468 AM  [                 Common-Dashboard                 ] - INFO -: Successfully updated parameters. It took 1.4922542572021484 seconds to update parameters
+11:05:34.049480 AM  [                 Common-Dashboard                 ] - INFO -: Successfully updated parameters. It took 1.491894245147705 seconds to update parameters
+11:14:06.397927 AM  [                 Common-Dashboard                 ] - INFO -: The sessions changes are: 
+11:14:06.398923 AM  [                 Common-Dashboard                 ] - INFO -:  - Starting
+11:14:06.398923 AM  [                 Common-Dashboard                 ] - INFO -: Motor starting method has changed from Direct to Open Loop Ramp
+11:14:08.336030 AM  [                 Common-Dashboard                 ] - INFO -: Successfully back annotated parameters for VF Diagnostics
+11:14:08.355511 AM  [                 Common-Dashboard                 ] - INFO -: Successfully back annotated parameters for Current Sense
+11:14:08.409813 AM  [                 Common-Dashboard                 ] - INFO -: Successfully back annotated parameters for Current Loop
+11:14:08.430251 AM  [                 Common-Dashboard                 ] - INFO -: Successfully back annotated parameters for Speed Loop
+11:14:08.463051 AM  [                 Common-Dashboard                 ] - INFO -: Successfully back annotated parameters for Angle Estimation
+11:14:08.492487 AM  [                 Common-Dashboard                 ] - INFO -: Successfully back annotated parameters for Starting
+11:14:08.512024 AM  [                 Common-Dashboard                 ] - INFO -: Successfully back annotated parameters for Hall Feedback
+11:14:08.529964 AM  [                 Common-Dashboard                 ] - INFO -: Successfully back annotated parameters for PFC Open Loop
+11:14:08.548479 AM  [                 Common-Dashboard                 ] - INFO -: Successfully back annotated parameters for PFC Current Sense
+11:14:08.564674 AM  [                 Common-Dashboard                 ] - INFO -: Successfully back annotated parameters for PFC Current Loop
+11:14:08.581163 AM  [                 Common-Dashboard                 ] - INFO -: Successfully back annotated parameters for PFC FF
+11:14:08.597039 AM  [                 Common-Dashboard                 ] - INFO -: Successfully back annotated parameters for PFC ZC Detection
+11:14:08.613542 AM  [                 Common-Dashboard                 ] - INFO -: Successfully back annotated parameters for PFC Voltage Loop
+03:09:57.186406 PM  [                 Common-Dashboard                 ] -  DEBUG  -: 
+--------------------------* OPENING 			 						
+--------------------------* DATE = 2025 :11: 04 
+--------------------------* PATH = C:/Users/urmin/Desktop/MOTOR/MOTOR/settings/cw_data/Common_dashboard.log 
+--------------------------* domain-instace =                  Common-Dashboard                 
+03:09:57.186406 PM  [                 Common-Dashboard                 ] -  DEBUG  -: PrintClass.Mode is  =  {'DEBUG': 0, 'INFO': 1, 'ERROR': 0, 'WARNING': 0}
+03:10:04.858430 PM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+03:12:26.474810 PM  [                 Common-Dashboard                 ] - INFO -: The sessions changes are: 
+03:36:27.721407 PM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 4.257878065109253
+03:36:39.356850 PM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 3.3300979137420654
+03:36:39.419191 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Other
+03:36:39.436813 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Other
+03:36:39.452809 PM  [                 Common-Dashboard                 ] - INFO -: Synced  VF Diagnostics
+03:36:39.468876 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Sense
+03:36:39.484962 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Loop
+03:36:39.501005 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Speed Loop
+03:36:39.517367 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Angle Estimation
+03:36:39.533740 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Starting
+03:36:39.551041 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Hall Feedback
+03:36:39.565991 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Open Loop
+03:36:39.580941 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Sense
+03:36:39.596887 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Loop
+03:36:39.611838 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC FF
+03:36:39.626787 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC ZC Detection
+03:36:39.641738 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Voltage Loop
+03:36:40.055930 PM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+03:36:40.300930 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Other
+03:36:40.317558 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Other
+03:36:40.333102 PM  [                 Common-Dashboard                 ] - INFO -: Synced  VF Diagnostics
+03:36:40.348275 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Sense
+03:36:40.363225 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Loop
+03:36:40.379172 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Speed Loop
+03:36:40.394122 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Angle Estimation
+03:36:40.410772 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Starting
+03:36:40.427717 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Hall Feedback
+03:36:40.443664 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Open Loop
+03:36:40.459611 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Sense
+03:36:40.476554 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Loop
+03:36:40.493497 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC FF
+03:36:40.509444 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC ZC Detection
+03:36:40.525391 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Voltage Loop
+03:37:03.668173 PM  [                 Common-Dashboard                 ] - INFO -: Successfully updated parameters. It took 1.0997581481933594 seconds to update parameters
+03:39:33.460868 PM  [                 Common-Dashboard                 ] - INFO -: Reading Starting dashboard
+03:41:35.101428 PM  [                 Common-Dashboard                 ] - INFO -: Successfully updated parameters. It took 1.4682581424713135 seconds to update parameters
+03:41:47.667853 PM  [                 Common-Dashboard                 ] - INFO -: Successfully updated parameters. It took 1.3552210330963135 seconds to update parameters
+03:42:01.683162 PM  [                 Common-Dashboard                 ] - INFO -: Successfully updated parameters. It took 1.4297566413879395 seconds to update parameters
+03:42:23.689564 PM  [                 Common-Dashboard                 ] - INFO -: Successfully updated parameters. It took 1.4311354160308838 seconds to update parameters
+03:43:24.675778 PM  [                 Common-Dashboard                 ] - INFO -: Successfully updated parameters. It took 1.3409626483917236 seconds to update parameters
+03:43:38.202830 PM  [                 Common-Dashboard                 ] - INFO -: Successfully updated parameters. It took 1.2546639442443848 seconds to update parameters
+03:43:51.682829 PM  [                 Common-Dashboard                 ] - INFO -: Successfully updated parameters. It took 1.4822731018066406 seconds to update parameters
+03:44:04.711449 PM  [                 Common-Dashboard                 ] - INFO -: Successfully updated parameters. It took 1.2748923301696777 seconds to update parameters
+03:44:18.102385 PM  [                 Common-Dashboard                 ] - INFO -: Successfully updated parameters. It took 1.5145888328552246 seconds to update parameters
+03:44:55.365909 PM  [                 Common-Dashboard                 ] - INFO -: Reading Speed Loop dashboard
+03:45:22.824236 PM  [                 Common-Dashboard                 ] - INFO -: Successfully updated parameters. It took 1.2938268184661865 seconds to update parameters
+03:45:37.916000 PM  [                 Common-Dashboard                 ] - INFO -: Successfully updated parameters. It took 0.9983260631561279 seconds to update parameters
+03:46:04.855069 PM  [                 Common-Dashboard                 ] - INFO -: Successfully updated parameters. It took 1.3015494346618652 seconds to update parameters
+03:46:23.836863 PM  [                 Common-Dashboard                 ] - INFO -: Successfully updated parameters. It took 1.1468758583068848 seconds to update parameters
+03:47:09.383599 PM  [                 Common-Dashboard                 ] - INFO -: Successfully updated parameters. It took 1.2567923069000244 seconds to update parameters
+03:47:30.403944 PM  [                 Common-Dashboard                 ] - INFO -: Successfully updated parameters. It took 1.206831455230713 seconds to update parameters
+03:50:12.648529 PM  [                 Common-Dashboard                 ] - INFO -: Successfully back annotated parameters for Speed Loop
+03:50:51.398792 PM  [                 Common-Dashboard                 ] - INFO -: Reading Angle Estimation dashboard
+03:51:00.622960 PM  [                 Common-Dashboard                 ] - INFO -: Reading Starting dashboard
+03:51:06.147321 PM  [                 Common-Dashboard                 ] - INFO -: Reading Hall Feedback dashboard
+03:51:17.359839 PM  [                 Common-Dashboard                 ] - INFO -: Reading Speed Loop dashboard
+03:51:18.434431 PM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+03:51:26.311343 PM  [                 Common-Dashboard                 ] - INFO -: Reading Current Sense dashboard
+03:51:50.339783 PM  [                 Common-Dashboard                 ] - INFO -: Reading Speed Loop dashboard
+03:51:58.822165 PM  [                 Common-Dashboard                 ] - INFO -: Successfully updated parameters. It took 1.320343017578125 seconds to update parameters
+03:52:07.851120 PM  [                 Common-Dashboard                 ] - INFO -: Successfully updated parameters. It took 1.2658913135528564 seconds to update parameters
+03:52:56.392005 PM  [                 Common-Dashboard                 ] - INFO -: Successfully updated parameters. It took 1.1150767803192139 seconds to update parameters
+03:52:58.482175 PM  [                 Common-Dashboard                 ] - INFO -: Successfully back annotated parameters for Speed Loop
+10:33:06.357302 PM  [                 Common-Dashboard                 ] -  DEBUG  -: 
+--------------------------* OPENING 			 						
+--------------------------* DATE = 2025 :11: 14 
+--------------------------* PATH = C:/Users/mathe/Downloads/MOTOR2/MOTOR/settings/cw_data/Common_dashboard.log 
+--------------------------* domain-instace =                  Common-Dashboard                 
+10:33:06.357302 PM  [                 Common-Dashboard                 ] -  DEBUG  -: PrintClass.Mode is  =  {'DEBUG': 0, 'INFO': 1, 'ERROR': 0, 'WARNING': 0}
+10:33:13.853546 PM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+10:33:17.558084 PM  [                 Common-Dashboard                 ] - INFO -: The sessions changes are: 
+10:36:18.594098 PM  [                 Common-Dashboard                 ] -  DEBUG  -: 
+--------------------------* OPENING 			 						
+--------------------------* DATE = 2025 :11: 14 
+--------------------------* PATH = C:/Users/mathe/Downloads/MOTOR2/MOTOR/settings/cw_data/Common_dashboard.log 
+--------------------------* domain-instace =                  Common-Dashboard                 
+10:36:18.594098 PM  [                 Common-Dashboard                 ] -  DEBUG  -: PrintClass.Mode is  =  {'DEBUG': 0, 'INFO': 1, 'ERROR': 0, 'WARNING': 0}
+10:36:25.897795 PM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+10:36:35.152236 PM  [                 Common-Dashboard                 ] - INFO -: The sessions changes are: 
+10:37:33.994946 PM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 4.321028709411621
+10:37:48.030401 PM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 3.3464365005493164
+10:37:48.092877 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Other
+10:37:48.117880 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Other
+10:37:48.135206 PM  [                 Common-Dashboard                 ] - INFO -: Synced  VF Diagnostics
+10:37:48.228960 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Sense
+10:37:48.257574 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Loop
+10:37:48.290026 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Speed Loop
+10:37:48.318082 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Angle Estimation
+10:37:48.346084 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Starting
+10:37:48.392806 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Hall Feedback
+10:37:48.421201 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Open Loop
+10:37:48.445204 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Sense
+10:37:48.468874 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Loop
+10:37:48.492239 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC FF
+10:37:48.519336 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC ZC Detection
+10:37:48.544337 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Voltage Loop
+10:37:49.049824 PM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+10:37:49.314078 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Other
+10:37:49.337065 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Other
+10:37:49.354064 PM  [                 Common-Dashboard                 ] - INFO -: Synced  VF Diagnostics
+10:37:49.387870 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Sense
+10:37:49.417354 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Loop
+10:37:49.446873 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Speed Loop
+10:37:49.477052 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Angle Estimation
+10:37:49.506885 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Starting
+10:37:49.551883 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Hall Feedback
+10:37:49.585055 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Open Loop
+10:37:49.608118 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Sense
+10:37:49.631119 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Loop
+10:37:49.656119 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC FF
+10:37:49.682637 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC ZC Detection
+10:37:49.709953 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Voltage Loop
+10:38:51.294436 PM  [                 Common-Dashboard                 ] - INFO -: Reading Starting dashboard
+10:39:34.188761 PM  [                 Common-Dashboard                 ] - INFO -: Reading Current Sense dashboard
+10:39:35.766036 PM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+10:39:38.068668 PM  [                 Common-Dashboard                 ] - INFO -: Reading Speed Loop dashboard
+10:39:40.276995 PM  [                 Common-Dashboard                 ] - INFO -: Reading Current Loop dashboard
+10:39:41.924788 PM  [                 Common-Dashboard                 ] - INFO -: Reading Current Sense dashboard
+10:39:44.159970 PM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+10:39:52.389290 PM  [                 Common-Dashboard                 ] - INFO -: Reading Starting dashboard
+10:40:30.742419 PM  [                 Common-Dashboard                 ] - INFO -: Successfully updated parameters. It took 1.5767459869384766 seconds to update parameters
+10:40:49.658639 PM  [                 Common-Dashboard                 ] - INFO -: Successfully updated parameters. It took 1.713592529296875 seconds to update parameters
+02:11:34.430743 PM  [                 Common-Dashboard                 ] -  DEBUG  -: 
+--------------------------* OPENING 			 						
+--------------------------* DATE = 2025 :11: 25 
+--------------------------* PATH = C:/Users/mathe/Downloads/MOTOR2/MOTOR/settings/cw_data/Common_dashboard.log 
+--------------------------* domain-instace =                  Common-Dashboard                 
+02:11:34.430743 PM  [                 Common-Dashboard                 ] -  DEBUG  -: PrintClass.Mode is  =  {'DEBUG': 0, 'INFO': 1, 'ERROR': 0, 'WARNING': 0}
+02:11:55.655910 PM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+02:12:01.069010 PM  [                 Common-Dashboard                 ] - INFO -: The sessions changes are: 
+09:48:30.438086 PM  [                 Common-Dashboard                 ] -  DEBUG  -: 
+--------------------------* OPENING 			 						
+--------------------------* DATE = 2025 :12: 07 
+--------------------------* PATH = C:/Users/mathe/Downloads/MOTOR2/MOTOR/settings/cw_data/Common_dashboard.log 
+--------------------------* domain-instace =                  Common-Dashboard                 
+09:48:30.438086 PM  [                 Common-Dashboard                 ] -  DEBUG  -: PrintClass.Mode is  =  {'DEBUG': 0, 'INFO': 1, 'ERROR': 0, 'WARNING': 0}
+09:48:38.571343 PM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+09:48:52.411718 PM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 4.272274494171143
+09:49:04.254168 PM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 3.3296751976013184
+09:49:04.317096 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Other
+09:49:04.342612 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Other
+09:49:04.363612 PM  [                 Common-Dashboard                 ] - INFO -: Synced  VF Diagnostics
+09:49:04.391613 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Sense
+09:49:04.419612 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Loop
+09:49:04.447126 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Speed Loop
+09:49:04.476125 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Angle Estimation
+09:49:04.506125 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Starting
+09:49:04.545638 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Hall Feedback
+09:49:04.572639 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Open Loop
+09:49:04.595638 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Sense
+09:49:04.618638 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Loop
+09:49:04.642147 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC FF
+09:49:04.665153 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC ZC Detection
+09:49:04.689153 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Voltage Loop
+09:49:05.113259 PM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+09:49:05.389804 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Other
+09:49:05.408812 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Other
+09:49:05.426813 PM  [                 Common-Dashboard                 ] - INFO -: Synced  VF Diagnostics
+09:49:05.456339 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Sense
+09:49:05.485339 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Loop
+09:49:05.516341 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Speed Loop
+09:49:05.544862 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Angle Estimation
+09:49:05.573868 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Starting
+09:49:05.618866 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Hall Feedback
+09:49:05.648380 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Open Loop
+09:49:05.672379 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Sense
+09:49:05.701385 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Loop
+09:49:05.725384 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC FF
+09:49:05.749906 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC ZC Detection
+09:49:05.772905 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Voltage Loop
+09:49:34.531382 PM  [                 Common-Dashboard                 ] - INFO -: Reading Hall Feedback dashboard
+09:49:38.186929 PM  [                 Common-Dashboard                 ] - INFO -: Reading Speed Loop dashboard
+09:49:39.477288 PM  [                 Common-Dashboard                 ] - INFO -: Reading Current Loop dashboard
+09:49:44.853438 PM  [                 Common-Dashboard                 ] - INFO -: Reading Speed Loop dashboard
+09:49:47.276067 PM  [                 Common-Dashboard                 ] - INFO -: Reading Angle Estimation dashboard
+09:49:49.316011 PM  [                 Common-Dashboard                 ] - INFO -: Reading Starting dashboard
+09:52:24.015971 PM  [                 Common-Dashboard                 ] -  DEBUG  -: 
+--------------------------* OPENING 			 						
+--------------------------* DATE = 2025 :12: 07 
+--------------------------* PATH = C:/Users/mathe/Downloads/MOTOR2/MOTOR/settings/cw_data/Common_dashboard.log 
+--------------------------* domain-instace =                  Common-Dashboard                 
+09:52:24.015971 PM  [                 Common-Dashboard                 ] -  DEBUG  -: PrintClass.Mode is  =  {'DEBUG': 0, 'INFO': 1, 'ERROR': 0, 'WARNING': 0}
+09:52:31.465168 PM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+09:52:46.150518 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Other
+09:52:46.170488 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Other
+09:52:46.191489 PM  [                 Common-Dashboard                 ] - INFO -: Synced  VF Diagnostics
+09:52:46.216002 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Sense
+09:52:46.241174 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Loop
+09:52:46.265173 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Speed Loop
+09:52:46.288173 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Angle Estimation
+09:52:46.311702 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Starting
+09:52:46.341947 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Hall Feedback
+09:52:46.363942 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Open Loop
+09:52:46.384943 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Sense
+09:52:46.404953 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Loop
+09:52:46.428191 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC FF
+09:52:46.450222 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC ZC Detection
+09:52:46.470222 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Voltage Loop
+09:52:47.115763 PM  [                 Common-Dashboard                 ] - INFO -: The sessions changes are: 
+09:53:12.760131 PM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 4.258897304534912
+09:53:27.117565 PM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 3.42256760597229
+09:53:27.178713 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Other
+09:53:27.205735 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Other
+09:53:27.222721 PM  [                 Common-Dashboard                 ] - INFO -: Synced  VF Diagnostics
+09:53:27.251725 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Sense
+09:53:27.283243 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Loop
+09:53:27.313243 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Speed Loop
+09:53:27.344362 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Angle Estimation
+09:53:27.372873 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Starting
+09:53:27.413873 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Hall Feedback
+09:53:27.443878 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Open Loop
+09:53:27.467389 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Sense
+09:53:27.491389 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Loop
+09:53:27.515389 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC FF
+09:53:27.541389 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC ZC Detection
+09:53:27.565904 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Voltage Loop
+09:53:28.068646 PM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+09:53:28.327860 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Other
+09:53:28.346860 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Other
+09:53:28.364371 PM  [                 Common-Dashboard                 ] - INFO -: Synced  VF Diagnostics
+09:53:28.397376 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Sense
+09:53:28.428372 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Loop
+09:53:28.462895 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Speed Loop
+09:53:28.493462 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Angle Estimation
+09:53:28.523166 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Starting
+09:53:28.567425 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Hall Feedback
+09:53:28.597905 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Open Loop
+09:53:28.623027 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Sense
+09:53:28.648038 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Loop
+09:53:28.675012 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC FF
+09:53:28.699062 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC ZC Detection
+09:53:28.724176 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Voltage Loop
+09:53:46.664443 PM  [                 Common-Dashboard                 ] - INFO -: Reading Speed Loop dashboard
+09:54:07.831023 PM  [                 Common-Dashboard                 ] - INFO -: Successfully updated parameters. It took 1.2269082069396973 seconds to update parameters
+10:09:00.586991 PM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+10:09:05.148903 PM  [                 Common-Dashboard                 ] - INFO -: Reading Hall Feedback dashboard
+10:09:07.520883 PM  [                 Common-Dashboard                 ] - INFO -: Reading Starting dashboard
+10:09:09.913983 PM  [                 Common-Dashboard                 ] - INFO -: Reading Angle Estimation dashboard
+10:09:14.182614 PM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+10:49:00.913903 PM  [                 Common-Dashboard                 ] - INFO -: The sessions changes are: 
+10:50:05.146631 PM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 6.865744590759277
+10:50:05.209116 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Other
+10:50:05.233125 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Other
+10:50:05.252125 PM  [                 Common-Dashboard                 ] - INFO -: Synced  VF Diagnostics
+10:50:05.351632 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Sense
+10:50:05.448150 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Loop
+10:50:05.548675 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Speed Loop
+10:50:05.648374 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Angle Estimation
+10:50:05.748880 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Starting
+10:50:05.929682 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Hall Feedback
+10:50:06.026197 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Open Loop
+10:50:06.083196 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Sense
+10:50:06.146715 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Loop
+10:50:06.203227 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC FF
+10:50:06.265226 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC ZC Detection
+10:50:06.321716 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Voltage Loop
+10:50:07.150279 PM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+10:50:07.499937 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Other
+10:50:07.522449 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Other
+10:50:07.539449 PM  [                 Common-Dashboard                 ] - INFO -: Synced  VF Diagnostics
+10:50:07.637957 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Sense
+10:50:07.734463 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Loop
+10:50:07.832972 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Speed Loop
+10:50:07.934478 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Angle Estimation
+10:50:08.035777 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Starting
+10:50:08.217798 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Hall Feedback
+10:50:08.315311 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Open Loop
+10:50:08.376310 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Sense
+10:50:08.435817 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Loop
+10:50:08.493650 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC FF
+10:50:08.555154 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC ZC Detection
+10:50:08.615666 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Voltage Loop
+10:50:39.849321 PM  [                 Common-Dashboard                 ] - INFO -: Successfully updated parameters. It took 1.0576047897338867 seconds to update parameters
+10:51:24.952286 PM  [                 Common-Dashboard                 ] - INFO -: The sessions changes are: 
+10:52:11.727827 PM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 7.817927837371826
+10:52:11.790378 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Other
+10:52:11.813912 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Other
+10:52:11.831913 PM  [                 Common-Dashboard                 ] - INFO -: Synced  VF Diagnostics
+10:52:11.954644 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Sense
+10:52:12.075501 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Loop
+10:52:12.191014 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Speed Loop
+10:52:12.308812 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Angle Estimation
+10:52:12.423931 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Starting
+10:52:12.638368 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Hall Feedback
+10:52:12.753287 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Open Loop
+10:52:12.820046 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Sense
+10:52:12.886414 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Loop
+10:52:12.952926 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC FF
+10:52:13.019166 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC ZC Detection
+10:52:13.085199 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Voltage Loop
+10:52:14.018188 PM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+10:52:14.448742 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Other
+10:52:14.467742 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Other
+10:52:14.487764 PM  [                 Common-Dashboard                 ] - INFO -: Synced  VF Diagnostics
+10:52:14.609783 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Sense
+10:52:14.729983 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Loop
+10:52:14.851499 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Speed Loop
+10:52:14.969072 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Angle Estimation
+10:52:15.087074 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Starting
+10:52:15.315438 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Hall Feedback
+10:52:15.439050 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Open Loop
+10:52:15.512103 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Sense
+10:52:15.579104 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Loop
+10:52:15.645625 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC FF
+10:52:15.710750 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC ZC Detection
+10:52:15.779748 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Voltage Loop
+09:54:58.685490 AM  [                 Common-Dashboard                 ] -  DEBUG  -: 
+--------------------------* OPENING 			 						
+--------------------------* DATE = 2025 :12: 08 
+--------------------------* PATH = C:/Users/mathe/Downloads/MOTOR2/MOTOR/settings/cw_data/Common_dashboard.log 
+--------------------------* domain-instace =                  Common-Dashboard                 
+09:54:58.686561 AM  [                 Common-Dashboard                 ] -  DEBUG  -: PrintClass.Mode is  =  {'DEBUG': 0, 'INFO': 1, 'ERROR': 0, 'WARNING': 0}
+09:55:06.239521 AM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+09:55:55.254569 AM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 4.285524368286133
+09:56:07.170911 AM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 3.3606510162353516
+09:56:07.232637 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Other
+09:56:07.256643 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Other
+09:56:07.274818 AM  [                 Common-Dashboard                 ] - INFO -: Synced  VF Diagnostics
+09:56:07.304317 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Sense
+09:56:07.335317 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Loop
+09:56:07.366266 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Speed Loop
+09:56:07.394225 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Angle Estimation
+09:56:07.425225 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Starting
+09:56:07.466230 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Hall Feedback
+09:56:07.496914 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Open Loop
+09:56:07.525326 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Sense
+09:56:07.549321 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Loop
+09:56:07.575326 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC FF
+09:56:07.599831 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC ZC Detection
+09:56:07.625670 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Voltage Loop
+09:56:08.059753 AM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+09:56:08.305062 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Other
+09:56:08.326062 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Other
+09:56:08.343063 AM  [                 Common-Dashboard                 ] - INFO -: Synced  VF Diagnostics
+09:56:08.373743 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Sense
+09:56:08.404248 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Loop
+09:56:08.437496 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Speed Loop
+09:56:08.467089 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Angle Estimation
+09:56:08.497598 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Starting
+09:56:08.542590 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Hall Feedback
+09:56:08.574930 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Open Loop
+09:56:08.599453 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Sense
+09:56:08.623891 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Loop
+09:56:08.647889 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC FF
+09:56:08.671899 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC ZC Detection
+09:56:08.696413 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Voltage Loop
+10:45:04.564088 AM  [                 Common-Dashboard                 ] - INFO -: The sessions changes are: 
+10:45:11.780954 AM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 3.2946677207946777
+10:45:30.710043 AM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 3.8679311275482178
+10:45:30.772661 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Other
+10:45:30.795396 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Other
+10:45:30.813919 AM  [                 Common-Dashboard                 ] - INFO -: Synced  VF Diagnostics
+10:45:30.865411 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Sense
+10:45:30.920362 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Loop
+10:45:30.972879 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Speed Loop
+10:45:31.024114 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Angle Estimation
+10:45:31.077780 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Starting
+10:45:31.164442 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Hall Feedback
+10:45:31.217680 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Open Loop
+10:45:31.253757 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Sense
+10:45:31.287759 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Loop
+10:45:31.324275 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC FF
+10:45:31.358275 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC ZC Detection
+10:45:31.396271 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Voltage Loop
+10:45:38.997845 AM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+10:45:39.344566 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Other
+10:45:39.364558 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Other
+10:45:39.381557 AM  [                 Common-Dashboard                 ] - INFO -: Synced  VF Diagnostics
+10:45:39.434875 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Sense
+10:45:39.490379 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Loop
+10:45:39.542627 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Speed Loop
+10:45:39.593626 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Angle Estimation
+10:45:39.650153 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Starting
+10:45:39.735745 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Hall Feedback
+10:45:39.788262 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Open Loop
+10:45:39.824266 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Sense
+10:45:39.858781 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Loop
+10:45:39.893781 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC FF
+10:45:39.929792 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC ZC Detection
+10:45:39.969303 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Voltage Loop
+10:50:39.989905 AM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 0.021495819091796875
+10:51:01.031844 AM  [                 Common-Dashboard                 ] - INFO -: The sessions changes are: 
+10:51:19.231005 AM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 0.02415776252746582
+10:52:30.247964 AM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 0.02515578269958496
+10:52:49.737897 AM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 3.4391281604766846
+10:52:49.898316 AM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+10:52:50.228081 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Other
+10:52:50.246791 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Other
+10:52:50.264796 AM  [                 Common-Dashboard                 ] - INFO -: Synced  VF Diagnostics
+10:52:50.323300 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Sense
+10:52:50.381818 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Loop
+10:52:50.441689 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Speed Loop
+10:52:50.503089 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Angle Estimation
+10:52:50.560089 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Starting
+10:52:50.657226 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Hall Feedback
+10:52:50.713753 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Open Loop
+10:52:50.751855 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Sense
+10:52:50.789774 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Loop
+10:52:50.827774 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC FF
+10:52:50.868114 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC ZC Detection
+10:52:50.907639 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Voltage Loop
+10:35:23.933912 PM  [                 Common-Dashboard                 ] -  DEBUG  -: 
+--------------------------* OPENING 			 						
+--------------------------* DATE = 2025 :12: 22 
+--------------------------* PATH = C:/Users/mathe/Downloads/MOTOR2/MOTOR/settings/cw_data/Common_dashboard.log 
+--------------------------* domain-instace =                  Common-Dashboard                 
+10:35:23.933912 PM  [                 Common-Dashboard                 ] -  DEBUG  -: PrintClass.Mode is  =  {'DEBUG': 0, 'INFO': 1, 'ERROR': 0, 'WARNING': 0}
+10:35:33.474354 PM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+10:35:50.162499 PM  [                 Common-Dashboard                 ] - INFO -: The sessions changes are: 
+12:08:39.644138 PM  [                 Common-Dashboard                 ] -  DEBUG  -: 
+--------------------------* OPENING 			 						
+--------------------------* DATE = 2025 :12: 29 
+--------------------------* PATH = C:/Users/mathe/Downloads/MOTOR2/MOTOR/settings/cw_data/Common_dashboard.log 
+--------------------------* domain-instace =                  Common-Dashboard                 
+12:08:39.644138 PM  [                 Common-Dashboard                 ] -  DEBUG  -: PrintClass.Mode is  =  {'DEBUG': 0, 'INFO': 1, 'ERROR': 0, 'WARNING': 0}
+12:08:47.379980 PM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+12:08:54.463968 PM  [                 Common-Dashboard                 ] - INFO -: The sessions changes are: 
+12:09:09.122488 PM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 4.280277729034424
+12:09:24.017339 PM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 3.392591714859009
+12:09:24.080596 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Other
+12:09:24.101745 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Other
+12:09:24.119338 PM  [                 Common-Dashboard                 ] - INFO -: Synced  VF Diagnostics
+12:09:24.147606 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Sense
+12:09:24.176386 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Loop
+12:09:24.204000 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Speed Loop
+12:09:24.232327 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Angle Estimation
+12:09:24.261264 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Starting
+12:09:24.299692 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Hall Feedback
+12:09:24.327940 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Open Loop
+12:09:24.353116 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Sense
+12:09:24.375332 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Loop
+12:09:24.397477 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC FF
+12:09:24.420856 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC ZC Detection
+12:09:24.444517 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Voltage Loop
+12:09:42.768741 PM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 3.367602825164795
+12:09:42.769745 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Other
+12:09:42.787864 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Other
+12:09:42.805865 PM  [                 Common-Dashboard                 ] - INFO -: Synced  VF Diagnostics
+12:09:42.839147 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Sense
+12:09:42.872640 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Loop
+12:09:42.905641 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Speed Loop
+12:09:42.938640 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Angle Estimation
+12:09:42.971164 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Starting
+12:09:43.021585 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Hall Feedback
+12:09:43.054590 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Open Loop
+12:09:43.082106 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Sense
+12:09:43.108106 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Loop
+12:09:43.133106 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC FF
+12:09:43.162666 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC ZC Detection
+12:09:43.190667 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Voltage Loop
+12:09:43.531286 PM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+12:09:43.773063 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Other
+12:09:43.792063 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Other
+12:09:43.812062 PM  [                 Common-Dashboard                 ] - INFO -: Synced  VF Diagnostics
+12:09:43.846999 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Sense
+12:09:43.881529 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Loop
+12:09:43.914529 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Speed Loop
+12:09:43.950529 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Angle Estimation
+12:09:43.984038 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Starting
+12:09:44.035038 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Hall Feedback
+12:09:44.071553 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Open Loop
+12:09:44.098552 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Sense
+12:09:44.125552 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Loop
+12:09:44.153558 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC FF
+12:09:44.181068 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC ZC Detection
+12:09:44.210144 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Voltage Loop
+12:15:34.715714 PM  [                 Common-Dashboard                 ] - INFO -: Reading Hall Feedback dashboard
+12:20:32.272937 PM  [                 Common-Dashboard                 ] - INFO -: Reading Angle Estimation dashboard
+12:20:35.332811 PM  [                 Common-Dashboard                 ] - INFO -: Reading Current Loop dashboard
+12:20:42.861022 PM  [                 Common-Dashboard                 ] - INFO -: Reading Current Sense dashboard
+12:47:39.868949 PM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 0.009999513626098633
+12:47:53.509376 PM  [                 Common-Dashboard                 ] - INFO -: The sessions changes are: 
+12:47:58.962206 PM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 0.012721538543701172
+12:51:00.278752 PM  [                 Common-Dashboard                 ] -  DEBUG  -: 
+--------------------------* OPENING 			 						
+--------------------------* DATE = 2025 :12: 29 
+--------------------------* PATH = C:/Users/mathe/Downloads/MOTOR2/MOTOR/settings/cw_data/Common_dashboard.log 
+--------------------------* domain-instace =                  Common-Dashboard                 
+12:51:00.278752 PM  [                 Common-Dashboard                 ] -  DEBUG  -: PrintClass.Mode is  =  {'DEBUG': 0, 'INFO': 1, 'ERROR': 0, 'WARNING': 0}
+12:51:07.894362 PM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+12:51:40.134464 PM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 4.26261830329895
+12:51:51.941577 PM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 3.32810378074646
+12:51:52.003500 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Other
+12:51:52.026763 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Other
+12:51:52.043076 PM  [                 Common-Dashboard                 ] - INFO -: Synced  VF Diagnostics
+12:51:52.070077 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Sense
+12:51:52.096078 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Loop
+12:51:52.123087 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Speed Loop
+12:51:52.150596 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Angle Estimation
+12:51:52.176596 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Starting
+12:51:52.213644 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Hall Feedback
+12:51:52.240170 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Open Loop
+12:51:52.263169 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Sense
+12:51:52.285169 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Loop
+12:51:52.306170 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC FF
+12:51:52.330175 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC ZC Detection
+12:51:52.352679 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Voltage Loop
+12:51:52.767043 PM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+12:51:53.021511 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Other
+12:51:53.042020 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Other
+12:51:53.059020 PM  [                 Common-Dashboard                 ] - INFO -: Synced  VF Diagnostics
+12:51:53.087020 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Sense
+12:51:53.114020 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Loop
+12:51:53.141537 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Speed Loop
+12:51:53.169535 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Angle Estimation
+12:51:53.196535 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Starting
+12:51:53.236045 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Hall Feedback
+12:51:53.264050 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Open Loop
+12:51:53.287050 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Sense
+12:51:53.309051 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Loop
+12:51:53.333057 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC FF
+12:51:53.357567 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC ZC Detection
+12:51:53.380567 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Voltage Loop
+01:02:03.269368 PM  [                 Common-Dashboard                 ] - INFO -: The sessions changes are: 
+01:02:13.285038 PM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 0.006998300552368164
+01:15:08.750293 PM  [                 Common-Dashboard                 ] -  DEBUG  -: 
+--------------------------* OPENING 			 						
+--------------------------* DATE = 2025 :12: 29 
+--------------------------* PATH = C:/Users/mathe/Downloads/MOTOR2/MOTOR/settings/cw_data/Common_dashboard.log 
+--------------------------* domain-instace =                  Common-Dashboard                 
+01:15:08.750293 PM  [                 Common-Dashboard                 ] -  DEBUG  -: PrintClass.Mode is  =  {'DEBUG': 0, 'INFO': 1, 'ERROR': 0, 'WARNING': 0}
+01:15:15.876165 PM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+01:15:29.273730 PM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 0.00339508056640625
+01:16:19.938451 PM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 4.2657310962677
+01:16:32.019867 PM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 3.333801507949829
+01:16:32.080505 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Other
+01:16:32.101504 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Other
+01:16:32.121508 PM  [                 Common-Dashboard                 ] - INFO -: Synced  VF Diagnostics
+01:16:32.152023 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Sense
+01:16:32.180277 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Loop
+01:16:32.210276 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Speed Loop
+01:16:32.238802 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Angle Estimation
+01:16:32.266802 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Starting
+01:16:32.306802 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Hall Feedback
+01:16:32.335324 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Open Loop
+01:16:32.358322 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Sense
+01:16:32.380322 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Loop
+01:16:32.402324 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC FF
+01:16:32.424327 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC ZC Detection
+01:16:32.446838 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Voltage Loop
+01:16:32.906380 PM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+01:16:33.152387 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Other
+01:16:33.170391 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Other
+01:16:33.187391 PM  [                 Common-Dashboard                 ] - INFO -: Synced  VF Diagnostics
+01:16:33.221404 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Sense
+01:16:33.251912 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Loop
+01:16:33.281912 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Speed Loop
+01:16:33.312912 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Angle Estimation
+01:16:33.342430 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Starting
+01:16:33.384431 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Hall Feedback
+01:16:33.412431 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Open Loop
+01:16:33.436957 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Sense
+01:16:33.460958 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Loop
+01:16:33.483958 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC FF
+01:16:33.506958 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC ZC Detection
+01:16:33.529966 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Voltage Loop
+11:19:37.297698 AM  [                 Common-Dashboard                 ] -  DEBUG  -: 
+--------------------------* OPENING 			 						
+--------------------------* DATE = 2026 :01: 02 
+--------------------------* PATH = C:/Users/mathe/Downloads/MOTOR2/MOTOR/settings/cw_data/Common_dashboard.log 
+--------------------------* domain-instace =                  Common-Dashboard                 
+11:19:37.297698 AM  [                 Common-Dashboard                 ] -  DEBUG  -: PrintClass.Mode is  =  {'DEBUG': 0, 'INFO': 1, 'ERROR': 0, 'WARNING': 0}
+11:19:45.300335 AM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+11:22:08.333478 AM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 4.270931959152222
+11:22:20.149628 AM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 3.3258752822875977
+11:22:20.212351 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Other
+11:22:20.232346 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Other
+11:22:20.250346 AM  [                 Common-Dashboard                 ] - INFO -: Synced  VF Diagnostics
+11:22:20.277862 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Sense
+11:22:20.304862 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Loop
+11:22:20.333862 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Speed Loop
+11:22:20.362866 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Angle Estimation
+11:22:20.391030 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Starting
+11:22:20.431552 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Hall Feedback
+11:22:20.459556 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Open Loop
+11:22:20.483066 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Sense
+11:22:20.506066 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Loop
+11:22:20.529066 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC FF
+11:22:20.552066 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC ZC Detection
+11:22:20.576580 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Voltage Loop
+11:22:21.005901 AM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+11:22:21.247933 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Other
+11:22:21.266939 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Other
+11:22:21.286449 AM  [                 Common-Dashboard                 ] - INFO -: Synced  VF Diagnostics
+11:22:21.317449 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Sense
+11:22:21.346449 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Loop
+11:22:21.375968 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Speed Loop
+11:22:21.403968 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Angle Estimation
+11:22:21.433355 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Starting
+11:22:21.474826 AM  [                 Common-Dashboard                 ] - INFO -: Synced  Hall Feedback
+11:22:21.504826 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Open Loop
+11:22:21.529826 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Sense
+11:22:21.554826 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Loop
+11:22:21.578340 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC FF
+11:22:21.602340 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC ZC Detection
+11:22:21.625341 AM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Voltage Loop
+11:27:30.381168 AM  [                 Common-Dashboard                 ] - INFO -: Reading Angle Estimation dashboard
+11:27:31.292578 AM  [                 Common-Dashboard                 ] - INFO -: Reading Speed Loop dashboard
+11:27:32.815809 AM  [                 Common-Dashboard                 ] - INFO -: Reading Current Loop dashboard
+11:27:34.595176 AM  [                 Common-Dashboard                 ] - INFO -: Reading Hall Feedback dashboard
+11:27:36.029949 AM  [                 Common-Dashboard                 ] - INFO -: Reading Starting dashboard
+11:27:40.730303 AM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+11:33:07.987457 AM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 2.8490355014801025
+11:33:08.144263 AM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+03:06:37.372867 PM  [                 Common-Dashboard                 ] -  DEBUG  -: 
+--------------------------* OPENING 			 						
+--------------------------* DATE = 2026 :01: 02 
+--------------------------* PATH = C:/Users/mathe/Downloads/MOTOR2/MOTOR/settings/cw_data/Common_dashboard.log 
+--------------------------* domain-instace =                  Common-Dashboard                 
+03:06:37.373871 PM  [                 Common-Dashboard                 ] -  DEBUG  -: PrintClass.Mode is  =  {'DEBUG': 0, 'INFO': 1, 'ERROR': 0, 'WARNING': 0}
+03:06:45.082720 PM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+03:07:17.272774 PM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 4.262660026550293
+03:07:29.095552 PM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 3.35827374458313
+03:07:29.158059 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Other
+03:07:29.180060 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Other
+03:07:29.197059 PM  [                 Common-Dashboard                 ] - INFO -: Synced  VF Diagnostics
+03:07:29.224064 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Sense
+03:07:29.253584 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Loop
+03:07:29.279583 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Speed Loop
+03:07:29.307672 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Angle Estimation
+03:07:29.334187 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Starting
+03:07:29.372187 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Hall Feedback
+03:07:29.402147 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Open Loop
+03:07:29.424152 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Sense
+03:07:29.445671 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Loop
+03:07:29.468670 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC FF
+03:07:29.490670 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC ZC Detection
+03:07:29.512672 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Voltage Loop
+03:07:29.954058 PM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+03:07:30.196844 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Other
+03:07:30.217849 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Other
+03:07:30.235359 PM  [                 Common-Dashboard                 ] - INFO -: Synced  VF Diagnostics
+03:07:30.265372 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Sense
+03:07:30.292357 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Loop
+03:07:30.321364 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Speed Loop
+03:07:30.349251 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Angle Estimation
+03:07:30.376251 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Starting
+03:07:30.415251 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Hall Feedback
+03:07:30.443764 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Open Loop
+03:07:30.469397 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Sense
+03:07:30.491397 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Loop
+03:07:30.515397 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC FF
+03:07:30.537913 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC ZC Detection
+03:07:30.559621 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Voltage Loop
+05:49:56.109373 PM  [                 Common-Dashboard                 ] -  DEBUG  -: 
+--------------------------* OPENING 			 						
+--------------------------* DATE = 2026 :01: 02 
+--------------------------* PATH = C:/Users/mathe/Downloads/MOTOR2/MOTOR/settings/cw_data/Common_dashboard.log 
+--------------------------* domain-instace =                  Common-Dashboard                 
+05:49:56.110371 PM  [                 Common-Dashboard                 ] -  DEBUG  -: PrintClass.Mode is  =  {'DEBUG': 0, 'INFO': 1, 'ERROR': 0, 'WARNING': 0}
+05:50:03.590952 PM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+05:50:26.201958 PM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 4.257289886474609
+05:50:38.058862 PM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 3.353632688522339
+05:50:38.120792 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Other
+05:50:38.144601 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Other
+05:50:38.162111 PM  [                 Common-Dashboard                 ] - INFO -: Synced  VF Diagnostics
+05:50:38.190335 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Sense
+05:50:38.216335 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Loop
+05:50:38.243335 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Speed Loop
+05:50:38.269852 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Angle Estimation
+05:50:38.300981 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Starting
+05:50:38.341048 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Hall Feedback
+05:50:38.370587 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Open Loop
+05:50:38.395600 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Sense
+05:50:38.417597 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Loop
+05:50:38.441587 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC FF
+05:50:38.463099 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC ZC Detection
+05:50:38.485099 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Voltage Loop
+05:50:38.953319 PM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+05:50:39.199465 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Other
+05:50:39.221472 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Other
+05:50:39.238470 PM  [                 Common-Dashboard                 ] - INFO -: Synced  VF Diagnostics
+05:50:39.269013 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Sense
+05:50:39.297029 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Loop
+05:50:39.325376 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Speed Loop
+05:50:39.354399 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Angle Estimation
+05:50:39.381948 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Starting
+05:50:39.422948 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Hall Feedback
+05:50:39.449965 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Open Loop
+05:50:39.472502 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Sense
+05:50:39.495503 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Loop
+05:50:39.517498 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC FF
+05:50:39.540504 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC ZC Detection
+05:50:39.564054 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Voltage Loop
+09:34:01.142622 PM  [                 Common-Dashboard                 ] -  DEBUG  -: 
+--------------------------* OPENING 			 						
+--------------------------* DATE = 2026 :01: 02 
+--------------------------* PATH = C:/Users/mathe/Downloads/MOTOR2/MOTOR/settings/cw_data/Common_dashboard.log 
+--------------------------* domain-instace =                  Common-Dashboard                 
+09:34:01.143587 PM  [                 Common-Dashboard                 ] -  DEBUG  -: PrintClass.Mode is  =  {'DEBUG': 0, 'INFO': 1, 'ERROR': 0, 'WARNING': 0}
+09:34:08.641243 PM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+09:34:24.745953 PM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 4.299155235290527
+09:34:36.655503 PM  [                 Common-Dashboard                 ] - INFO -: Device has been connected. All dashboard parameter have been fetched successfully. It took 3.3372132778167725
+09:34:36.716797 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Other
+09:34:36.741424 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Other
+09:34:36.759915 PM  [                 Common-Dashboard                 ] - INFO -: Synced  VF Diagnostics
+09:34:36.788949 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Sense
+09:34:36.817479 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Loop
+09:34:36.847564 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Speed Loop
+09:34:36.875365 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Angle Estimation
+09:34:36.906026 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Starting
+09:34:36.944038 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Hall Feedback
+09:34:36.971500 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Open Loop
+09:34:36.994513 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Sense
+09:34:37.017045 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Loop
+09:34:37.039042 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC FF
+09:34:37.062046 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC ZC Detection
+09:34:37.086060 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Voltage Loop
+09:34:37.514553 PM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+09:34:37.758337 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Other
+09:34:37.777335 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Other
+09:34:37.795340 PM  [                 Common-Dashboard                 ] - INFO -: Synced  VF Diagnostics
+09:34:37.824583 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Sense
+09:34:37.852586 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Current Loop
+09:34:37.881604 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Speed Loop
+09:34:37.910296 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Angle Estimation
+09:34:37.938296 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Starting
+09:34:37.977293 PM  [                 Common-Dashboard                 ] - INFO -: Synced  Hall Feedback
+09:34:38.006718 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Open Loop
+09:34:38.046896 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Sense
+09:34:38.071890 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Current Loop
+09:34:38.095916 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC FF
+09:34:38.120451 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC ZC Detection
+09:34:38.144450 PM  [                 Common-Dashboard                 ] - INFO -: Synced  PFC Voltage Loop
+09:24:56.980319 AM  [                 Common-Dashboard                 ] -  DEBUG  -: 
+--------------------------* OPENING 			 						
+--------------------------* DATE = 2026 :01: 04 
+--------------------------* PATH = C:/Users/mathe/Downloads/MOTOR2/MOTOR/settings/cw_data/Common_dashboard.log 
+--------------------------* domain-instace =                  Common-Dashboard                 
+09:24:56.980319 AM  [                 Common-Dashboard                 ] -  DEBUG  -: PrintClass.Mode is  =  {'DEBUG': 0, 'INFO': 1, 'ERROR': 0, 'WARNING': 0}
+09:25:04.527057 AM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard
+09:31:39.648121 AM  [                 Common-Dashboard                 ] - INFO -: The sessions changes are: 
+10:23:24.677111 AM  [                 Common-Dashboard                 ] -  DEBUG  -: 
+--------------------------* OPENING 			 						
+--------------------------* DATE = 2026 :01: 04 
+--------------------------* PATH = C:/Users/mathe/Downloads/MOTOR2/BLDC 5MD electronics/settings/cw_data/Common_dashboard.log 
+--------------------------* domain-instace =                  Common-Dashboard                 
+10:23:24.677111 AM  [                 Common-Dashboard                 ] -  DEBUG  -: PrintClass.Mode is  =  {'DEBUG': 0, 'INFO': 1, 'ERROR': 0, 'WARNING': 0}
+10:23:32.453039 AM  [                 Common-Dashboard                 ] - INFO -: Reading VF Diagnostics dashboard

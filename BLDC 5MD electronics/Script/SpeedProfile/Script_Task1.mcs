@@ -1,0 +1,25 @@
+﻿/*Handling fault clear req
+
+/*Task1 init function*/
+Script_Task1_init()
+{
+
+}
+
+/******************************************************************************************************************/
+/*Task1 init function*/
+Script_Task1()
+{
+  /* clear fault if clear fault request is recevied*/
+  if(ClearFaultRequest ==1)
+  {
+    if(APP_MOTOR0.SwFaults == 0) 
+    {
+      APP_MOTOR0.FaultClear =1;  /*send fault clear command*/
+    }
+    ClearFaultRequest =0;
+  }
+  
+  /*Calculate the motor speed in RPM*/
+  MotorSpeed_rpm  = (APP_MOTOR0.MotorSpeed*(Scaling.S_MTR_SPEED_rpm>>16))>>11;       /*S_MTR_SPEED_rpm is represented in Q5.27 format*/
+}

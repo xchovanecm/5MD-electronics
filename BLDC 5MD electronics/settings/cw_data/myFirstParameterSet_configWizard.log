@@ -1,0 +1,165 @@
+10:27:08.012700 AM  [        myFirstParameterSet-Config Wizard         ] -  DEBUG  -: 
+--------------------------* OPENING 			 						
+--------------------------* DATE = 2025 :11: 04 
+--------------------------* PATH = C:/Users/urmin/Desktop/MOTOR/MOTOR/settings/cw_data/myFirstParameterSet_configWizard.log 
+--------------------------* domain-instace =         myFirstParameterSet-Config Wizard         
+10:27:08.012700 AM  [        myFirstParameterSet-Config Wizard         ] -  DEBUG  -: PrintClass.Mode is  =  {'DEBUG': 0, 'INFO': 1, 'ERROR': 0, 'WARNING': 0}
+10:27:10.208583 AM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Updating catalogs secondary parameters
+10:27:10.217344 AM  [        myFirstParameterSet-Config Wizard         ] - INFO -:  Over current comparator trip level (A) got updated from 2.64 to 91.24
+10:27:10.221333 AM  [        myFirstParameterSet-Config Wizard         ] - INFO -:  DC bus critical overvoltage fault level (V) got updated from 430.0 to 42.8
+10:27:10.223326 AM  [        myFirstParameterSet-Config Wizard         ] - INFO -:  DC bus overvoltage fault level (V) got updated from 360.0 to 40.5
+10:44:38.036109 AM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Starting parameter conversion to counts
+
+
+ 10:44:38.084137 AM  [        myFirstParameterSet-Config Wizard         ] - ERROR  -: There are variable that are out of range
+
+ 
+10:44:38.154879 AM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Parameters have been converted to counts
+10:45:14.871666 AM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Starting parameter conversion to counts
+10:45:14.952889 AM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Parameters have been converted to counts
+10:45:21.712198 AM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Starting parameter conversion to counts
+10:45:21.794664 AM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Parameters have been converted to counts
+10:46:20.885196 AM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Starting parameter conversion to counts
+10:46:20.942929 AM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Parameters have been converted to counts
+10:52:25.763512 AM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Starting parameter conversion to counts
+10:52:25.846413 AM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Parameters have been converted to counts
+10:56:02.149910 AM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Starting parameter conversion to counts
+10:56:02.230995 AM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Parameters have been converted to counts
+03:10:04.776896 PM  [        myFirstParameterSet-Config Wizard         ] -  DEBUG  -: 
+--------------------------* OPENING 			 						
+--------------------------* DATE = 2025 :11: 04 
+--------------------------* PATH = C:/Users/urmin/Desktop/MOTOR/MOTOR/settings/cw_data/myFirstParameterSet_configWizard.log 
+--------------------------* domain-instace =         myFirstParameterSet-Config Wizard         
+03:10:04.776896 PM  [        myFirstParameterSet-Config Wizard         ] -  DEBUG  -: PrintClass.Mode is  =  {'DEBUG': 0, 'INFO': 1, 'ERROR': 0, 'WARNING': 0}
+03:36:16.187575 PM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Starting parameter conversion to counts
+03:36:16.268077 PM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Parameters have been converted to counts
+10:33:13.783024 PM  [        myFirstParameterSet-Config Wizard         ] -  DEBUG  -: 
+--------------------------* OPENING 			 						
+--------------------------* DATE = 2025 :11: 14 
+--------------------------* PATH = C:/Users/mathe/Downloads/MOTOR2/MOTOR/settings/cw_data/myFirstParameterSet_configWizard.log 
+--------------------------* domain-instace =         myFirstParameterSet-Config Wizard         
+10:33:13.783024 PM  [        myFirstParameterSet-Config Wizard         ] -  DEBUG  -: PrintClass.Mode is  =  {'DEBUG': 0, 'INFO': 1, 'ERROR': 0, 'WARNING': 0}
+10:36:25.818625 PM  [        myFirstParameterSet-Config Wizard         ] -  DEBUG  -: 
+--------------------------* OPENING 			 						
+--------------------------* DATE = 2025 :11: 14 
+--------------------------* PATH = C:/Users/mathe/Downloads/MOTOR2/MOTOR/settings/cw_data/myFirstParameterSet_configWizard.log 
+--------------------------* domain-instace =         myFirstParameterSet-Config Wizard         
+10:36:25.818625 PM  [        myFirstParameterSet-Config Wizard         ] -  DEBUG  -: PrintClass.Mode is  =  {'DEBUG': 0, 'INFO': 1, 'ERROR': 0, 'WARNING': 0}
+10:37:23.783863 PM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Starting parameter conversion to counts
+10:37:23.885572 PM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Parameters have been converted to counts
+02:11:55.474428 PM  [        myFirstParameterSet-Config Wizard         ] -  DEBUG  -: 
+--------------------------* OPENING 			 						
+--------------------------* DATE = 2025 :11: 25 
+--------------------------* PATH = C:/Users/mathe/Downloads/MOTOR2/MOTOR/settings/cw_data/myFirstParameterSet_configWizard.log 
+--------------------------* domain-instace =         myFirstParameterSet-Config Wizard         
+02:11:55.475429 PM  [        myFirstParameterSet-Config Wizard         ] -  DEBUG  -: PrintClass.Mode is  =  {'DEBUG': 0, 'INFO': 1, 'ERROR': 0, 'WARNING': 0}
+02:14:27.485611 PM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Starting parameter conversion to counts
+02:14:27.819161 PM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Parameters have been converted to counts
+09:48:38.495831 PM  [        myFirstParameterSet-Config Wizard         ] -  DEBUG  -: 
+--------------------------* OPENING 			 						
+--------------------------* DATE = 2025 :12: 07 
+--------------------------* PATH = C:/Users/mathe/Downloads/MOTOR2/MOTOR/settings/cw_data/myFirstParameterSet_configWizard.log 
+--------------------------* domain-instace =         myFirstParameterSet-Config Wizard         
+09:48:38.495831 PM  [        myFirstParameterSet-Config Wizard         ] -  DEBUG  -: PrintClass.Mode is  =  {'DEBUG': 0, 'INFO': 1, 'ERROR': 0, 'WARNING': 0}
+09:48:43.405167 PM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Starting parameter conversion to counts
+09:48:43.486118 PM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Parameters have been converted to counts
+09:52:31.392484 PM  [        myFirstParameterSet-Config Wizard         ] -  DEBUG  -: 
+--------------------------* OPENING 			 						
+--------------------------* DATE = 2025 :12: 07 
+--------------------------* PATH = C:/Users/mathe/Downloads/MOTOR2/MOTOR/settings/cw_data/myFirstParameterSet_configWizard.log 
+--------------------------* domain-instace =         myFirstParameterSet-Config Wizard         
+09:52:31.392484 PM  [        myFirstParameterSet-Config Wizard         ] -  DEBUG  -: PrintClass.Mode is  =  {'DEBUG': 0, 'INFO': 1, 'ERROR': 0, 'WARNING': 0}
+09:52:57.225067 PM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Starting parameter conversion to counts
+09:52:57.292707 PM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Parameters have been converted to counts
+09:53:02.215245 PM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Starting parameter conversion to counts
+09:53:02.328044 PM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Parameters have been converted to counts
+10:49:42.595245 PM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Starting parameter conversion to counts
+10:49:44.359691 PM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Parameters have been converted to counts
+10:51:46.966123 PM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Starting parameter conversion to counts
+10:51:49.326771 PM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Parameters have been converted to counts
+09:55:06.169392 AM  [        myFirstParameterSet-Config Wizard         ] -  DEBUG  -: 
+--------------------------* OPENING 			 						
+--------------------------* DATE = 2025 :12: 08 
+--------------------------* PATH = C:/Users/mathe/Downloads/MOTOR2/MOTOR/settings/cw_data/myFirstParameterSet_configWizard.log 
+--------------------------* domain-instace =         myFirstParameterSet-Config Wizard         
+09:55:06.169392 AM  [        myFirstParameterSet-Config Wizard         ] -  DEBUG  -: PrintClass.Mode is  =  {'DEBUG': 0, 'INFO': 1, 'ERROR': 0, 'WARNING': 0}
+09:55:35.644395 AM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Starting parameter conversion to counts
+09:55:35.733317 AM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Parameters have been converted to counts
+10:35:33.388452 PM  [        myFirstParameterSet-Config Wizard         ] -  DEBUG  -: 
+--------------------------* OPENING 			 						
+--------------------------* DATE = 2025 :12: 22 
+--------------------------* PATH = C:/Users/mathe/Downloads/MOTOR2/MOTOR/settings/cw_data/myFirstParameterSet_configWizard.log 
+--------------------------* domain-instace =         myFirstParameterSet-Config Wizard         
+10:35:33.388452 PM  [        myFirstParameterSet-Config Wizard         ] -  DEBUG  -: PrintClass.Mode is  =  {'DEBUG': 0, 'INFO': 1, 'ERROR': 0, 'WARNING': 0}
+10:35:38.070555 PM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Starting parameter conversion to counts
+10:35:38.161809 PM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Parameters have been converted to counts
+12:08:47.306244 PM  [        myFirstParameterSet-Config Wizard         ] -  DEBUG  -: 
+--------------------------* OPENING 			 						
+--------------------------* DATE = 2025 :12: 29 
+--------------------------* PATH = C:/Users/mathe/Downloads/MOTOR2/MOTOR/settings/cw_data/myFirstParameterSet_configWizard.log 
+--------------------------* domain-instace =         myFirstParameterSet-Config Wizard         
+12:08:47.306244 PM  [        myFirstParameterSet-Config Wizard         ] -  DEBUG  -: PrintClass.Mode is  =  {'DEBUG': 0, 'INFO': 1, 'ERROR': 0, 'WARNING': 0}
+12:08:58.339278 PM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Starting parameter conversion to counts
+12:08:58.433417 PM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Parameters have been converted to counts
+12:51:07.824437 PM  [        myFirstParameterSet-Config Wizard         ] -  DEBUG  -: 
+--------------------------* OPENING 			 						
+--------------------------* DATE = 2025 :12: 29 
+--------------------------* PATH = C:/Users/mathe/Downloads/MOTOR2/MOTOR/settings/cw_data/myFirstParameterSet_configWizard.log 
+--------------------------* domain-instace =         myFirstParameterSet-Config Wizard         
+12:51:07.824437 PM  [        myFirstParameterSet-Config Wizard         ] -  DEBUG  -: PrintClass.Mode is  =  {'DEBUG': 0, 'INFO': 1, 'ERROR': 0, 'WARNING': 0}
+12:51:29.852446 PM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Starting parameter conversion to counts
+12:51:29.932971 PM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Parameters have been converted to counts
+01:15:15.800162 PM  [        myFirstParameterSet-Config Wizard         ] -  DEBUG  -: 
+--------------------------* OPENING 			 						
+--------------------------* DATE = 2025 :12: 29 
+--------------------------* PATH = C:/Users/mathe/Downloads/MOTOR2/MOTOR/settings/cw_data/myFirstParameterSet_configWizard.log 
+--------------------------* domain-instace =         myFirstParameterSet-Config Wizard         
+01:15:15.801162 PM  [        myFirstParameterSet-Config Wizard         ] -  DEBUG  -: PrintClass.Mode is  =  {'DEBUG': 0, 'INFO': 1, 'ERROR': 0, 'WARNING': 0}
+01:15:20.408659 PM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Starting parameter conversion to counts
+01:15:20.493179 PM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Parameters have been converted to counts
+11:19:45.223546 AM  [        myFirstParameterSet-Config Wizard         ] -  DEBUG  -: 
+--------------------------* OPENING 			 						
+--------------------------* DATE = 2026 :01: 02 
+--------------------------* PATH = C:/Users/mathe/Downloads/MOTOR2/MOTOR/settings/cw_data/myFirstParameterSet_configWizard.log 
+--------------------------* domain-instace =         myFirstParameterSet-Config Wizard         
+11:19:45.223546 AM  [        myFirstParameterSet-Config Wizard         ] -  DEBUG  -: PrintClass.Mode is  =  {'DEBUG': 0, 'INFO': 1, 'ERROR': 0, 'WARNING': 0}
+11:21:06.921041 AM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Starting parameter conversion to counts
+11:21:07.002855 AM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Parameters have been converted to counts
+03:06:45.011213 PM  [        myFirstParameterSet-Config Wizard         ] -  DEBUG  -: 
+--------------------------* OPENING 			 						
+--------------------------* DATE = 2026 :01: 02 
+--------------------------* PATH = C:/Users/mathe/Downloads/MOTOR2/MOTOR/settings/cw_data/myFirstParameterSet_configWizard.log 
+--------------------------* domain-instace =         myFirstParameterSet-Config Wizard         
+03:06:45.011213 PM  [        myFirstParameterSet-Config Wizard         ] -  DEBUG  -: PrintClass.Mode is  =  {'DEBUG': 0, 'INFO': 1, 'ERROR': 0, 'WARNING': 0}
+03:07:07.476929 PM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Starting parameter conversion to counts
+03:07:07.553902 PM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Parameters have been converted to counts
+05:50:03.517417 PM  [        myFirstParameterSet-Config Wizard         ] -  DEBUG  -: 
+--------------------------* OPENING 			 						
+--------------------------* DATE = 2026 :01: 02 
+--------------------------* PATH = C:/Users/mathe/Downloads/MOTOR2/MOTOR/settings/cw_data/myFirstParameterSet_configWizard.log 
+--------------------------* domain-instace =         myFirstParameterSet-Config Wizard         
+05:50:03.517417 PM  [        myFirstParameterSet-Config Wizard         ] -  DEBUG  -: PrintClass.Mode is  =  {'DEBUG': 0, 'INFO': 1, 'ERROR': 0, 'WARNING': 0}
+05:50:12.850901 PM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Starting parameter conversion to counts
+05:50:12.915545 PM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Parameters have been converted to counts
+09:34:08.561709 PM  [        myFirstParameterSet-Config Wizard         ] -  DEBUG  -: 
+--------------------------* OPENING 			 						
+--------------------------* DATE = 2026 :01: 02 
+--------------------------* PATH = C:/Users/mathe/Downloads/MOTOR2/MOTOR/settings/cw_data/myFirstParameterSet_configWizard.log 
+--------------------------* domain-instace =         myFirstParameterSet-Config Wizard         
+09:34:08.561709 PM  [        myFirstParameterSet-Config Wizard         ] -  DEBUG  -: PrintClass.Mode is  =  {'DEBUG': 0, 'INFO': 1, 'ERROR': 0, 'WARNING': 0}
+09:34:14.610286 PM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Starting parameter conversion to counts
+09:34:14.692420 PM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Parameters have been converted to counts
+09:25:04.446979 AM  [        myFirstParameterSet-Config Wizard         ] -  DEBUG  -: 
+--------------------------* OPENING 			 						
+--------------------------* DATE = 2026 :01: 04 
+--------------------------* PATH = C:/Users/mathe/Downloads/MOTOR2/MOTOR/settings/cw_data/myFirstParameterSet_configWizard.log 
+--------------------------* domain-instace =         myFirstParameterSet-Config Wizard         
+09:25:04.447978 AM  [        myFirstParameterSet-Config Wizard         ] -  DEBUG  -: PrintClass.Mode is  =  {'DEBUG': 0, 'INFO': 1, 'ERROR': 0, 'WARNING': 0}
+09:31:12.548813 AM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Starting parameter conversion to counts
+09:31:12.647632 AM  [        myFirstParameterSet-Config Wizard         ] - INFO -: Parameters have been converted to counts
+10:23:32.381526 AM  [        myFirstParameterSet-Config Wizard         ] -  DEBUG  -: 
+--------------------------* OPENING 			 						
+--------------------------* DATE = 2026 :01: 04 
+--------------------------* PATH = C:/Users/mathe/Downloads/MOTOR2/BLDC 5MD electronics/settings/cw_data/myFirstParameterSet_configWizard.log 
+--------------------------* domain-instace =         myFirstParameterSet-Config Wizard         
+10:23:32.381526 AM  [        myFirstParameterSet-Config Wizard         ] -  DEBUG  -: PrintClass.Mode is  =  {'DEBUG': 0, 'INFO': 1, 'ERROR': 0, 'WARNING': 0}

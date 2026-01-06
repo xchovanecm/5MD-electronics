@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MetaData Version="1.1">
+  <WatchVars>
+    <WatchVar Name="APP_MOTOR0.Command" DataType="int32_t" />
+    <WatchVar Name="APP_MOTOR0.TargetSpeed" DataType="int32_t" />
+    <WatchVar Name="ClearFaultRequest" DataType="uint8_t" />
+    <WatchVar Name="ADCVal" DataType="uint16_t" />
+    <WatchVar Name="APP_MOTOR0.SwFaults" DataType="int32_t" />
+    <WatchVar Name="OperationMode" DataType="uint8_t" />
+    <WatchVar Name="MotorSpeed_rpm" DataType="int32_t" />
+    <WatchVar Name="APP_MOTOR0.MotorSpeed" DataType="int32_t" />
+  </WatchVars>
+</MetaData>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MetaData Version="1.1">
+  <WatchVars>
+    <WatchVar Name="BaseHz" DataType="int32_t" />
+    <WatchVar Name="volt" DataType="int32_t" />
+    <WatchVar Name="TrqBoost" DataType="int32_t" />
+    <WatchVar Name="NoLoadFullRpm" DataType="int32_t" />
+    <WatchVar Name="MaxRpmFreq" DataType="int32_t" />
+    <WatchVar Name="Scaling.D_MTR_MotorPoles_Counts" DataType="int32_t" />
+    <WatchVar Name="Scaling.S_MTR_SPEED_rpm" DataType="int32_t" />
+    <WatchVar Name="MotorRotation" DataType="int32_t" />
+    <WatchVar Name="TrqBoostLim" DataType="int32_t" />
+    <WatchVar Name="VqMax" DataType="int32_t" />
+  </WatchVars>
+</MetaData>

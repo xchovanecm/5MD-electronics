@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ifxmlcfg version="1.3.3">
+  <checksum>0d75d78f5982b96592c32e57b6a1bd41f91f7f7478bde5534833f7758cb55a9f</checksum>
+  <version label="V0.0.4" />
+  <library unique_id="iMOTION_SD_V5.04.03" />
+  <usesPython />
+  <pythonstartup file="index.py" afterinit="1" />
+  <!--<disclaimer file="disclaimer.txt"/>-->
+  <moduledesc name="Project Creator" description="Creates a project from within CW" />
+  <loadsaveallowed value="0" />
+  <verticalcontainer>
+  </verticalcontainer>
+</ifxmlcfg>

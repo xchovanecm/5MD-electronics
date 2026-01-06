@@ -1,0 +1,13 @@
+%linker input file
+%filename: C:\Users\mathe\Downloads\MOTOR2\MOTOR\generated\build.sdld
+%built: 2026-01-04, 09:31:12
+#GLOB:
+C:\Users\mathe\Downloads\MOTOR2\MOTOR\generated\Common_mceos.pv.sdobj
+#PSET:myFirstParameterSet
+C:\Users\mathe\Downloads\MOTOR2\MOTOR\generated\myFirstParameterSet_system.sv.sdobj
+C:\Users\mathe\Downloads\MOTOR2\MOTOR\generated\myFirstParameterSet_system.pv.sdobj
+C:\Users\mathe\Downloads\MOTOR2\MOTOR\generated\myFirstParameterSet_motor.sv.sdobj
+C:\Users\mathe\Downloads\MOTOR2\MOTOR\generated\myFirstParameterSet_motor.pv.sdobj
+C:\Users\mathe\Downloads\MOTOR2\MOTOR\generated\myFirstParameterSet_pfc.sv.sdobj
+C:\Users\mathe\Downloads\MOTOR2\MOTOR\generated\myFirstParameterSet_pfc.pv.sdobj
+#END

@@ -1,0 +1,120 @@
+/* 
+	VdqLim is 86.60 (4310 counts) if SVPWM is not enabled otherwise is 100% (4973).
+	It can be set to 4973 through script to get 100%.
+	
+	Torque Boost is up to 20%
+	
+	BaseHz is 16383 for iMotion2Go and for AC Induction Motors should be calculated
+	as follows:
+	
+		BaseHz = (Base Speed in Frequency/MAX RPM in Frequency) * 16383
+	
+		MAX RPM in Frequency = (no-load-full-RPM x Poles number) / 120
+	
+		Following formula provides the Maximum Speed configured in Solution Designer
+		
+			NoLoadFullRpm = Scaling.S_MTR_SPEED_rpm * 2^14 / 2^27 
+		
+			NoLoadFullRpm = Scaling.S_MTR_SPEED_rpm / 2^13
+		
+	For example: Considering an AC Induction Motor with following
+					 Rs = 6ohm, Ls = 169mH, 4 poles, base freq=60Hz, maximum 
+					 no-load-RPM of 3600 RPM.
+	
+	Base Speed in Frequency = 60 Hz
+	
+	MAX RPM in Frequency		= 120	Hz
+	
+	BaseHz = 8191 = 60Hz / 120Hz * 16383
+	
+	MAX RPM in Frequency = (3600 x 4) / 60x2 => 14400/120 = 120 Hz
+*/
+const int VoltScale 					= 8;
+const int MinSpeedValue 			= 100;
+const int BaseSpeedHz				= 1092; 
+
+/* Global variable definition */
+int TrqBoost;
+int BaseHz; 
+
+/*********************************************************************************************************************/
+Script_Task0_init()           /*Task0 init function*/
+{
+ /* Local variable definition for Task 0 scope. */
+ int volt;
+ int VqMax; 
+ int TorqueBoostPercentage;
+ int NoLoadFullRpm;
+ int MaxRpmFreq;
+ int MotorRotation;
+ int TrqBoostLim;
+ 
+ NoLoadFullRpm = Scaling.S_MTR_SPEED_rpm/(1<<13);
+ 
+ MaxRpmFreq 	= NoLoadFullRpm*Scaling.D_MTR_MotorPoles_Counts/120; 
+ 
+ BaseHz 			= BaseSpeedHz/MaxRpmFreq*16383;
+ 
+ // Torque Boost 2%
+ TorqueBoostPercentage 	= 2;  
+ 
+ // Torque Boost is up to 20% 
+ if(TorqueBoostPercentage > 20)
+ {
+ 	TorqueBoostPercentage = 20;
+ }
+ 
+ // Set VDQ Limit to 100% (4973)
+ FB_CURRENTREGULATOR.VdqLim = 4973;
+ 
+ // Torque boost = VQ_MAX * % of troque boost (%) ~ Im x Rs /rated voltage
+ TrqBoost = FB_CURRENTREGULATOR.VdqLim*TorqueBoostPercentage/100; 	
+  
+ // Enable VDC Bus Compensation. Keep Torque Compensation, if enabled.
+ APP_MOTOR0.SysConfig.DcBusComp = 1;
+
+ // d-axis voltage to be zero
+ APP_MOTOR0.Vd_Ext = 0; 
+
+ // Soft start 
+ APP_MOTOR0.MinSpd = 0;
+ 
+ // Applicable only when VSP is not enabled otherwise VSP will overwrite the TargetSpeed
+ APP_MOTOR0.TargetSpeed = 4000;
+ 
+ EnableCoherentUpdate();
+ APP_MOTOR0.AngleSelect 	= 0; 	/*Set to open loop mode*/
+ APP_MOTOR0.CtrlModeSelect = 0; 	/*voltage control mode */
+ DoCoherentUpdate();
+
+}
+/*********************************************************************************************************************/
+Script_Task0()  /*Task0 script function*/
+{
+	/* voltage scaled to VQ_MAX */
+	volt	  = FB_RAMPLINEAR.Ramp_out * FB_CURRENTREGULATOR.VdqLim / BaseHz;
+ 
+ 	MotorRotation = 1;
+ 	
+ 	if( FB_RAMPLINEAR.Ramp_out < 0) 
+	{
+		MotorRotation = -1;
+	}
+ 
+ 	VqMax 		= FB_CURRENTREGULATOR.VdqLim * MotorRotation;
+ 	TrqBoostLim = TrqBoost * MotorRotation;
+ 	
+	// Motor Rotation equals to clockwise otherwise counter clockwise
+	if( ((MotorRotation==1) && (volt > VqMax)) || ((MotorRotation==-1) && (volt < VqMax)))
+	{
+		volt = VqMax; 	/* feild weakening */
+	}
+	if( ((MotorRotation==1) && (volt < TrqBoostLim)) || ( (MotorRotation==-1) && (volt > VqMax)))
+	{
+		volt = TrqBoostLim; 	/* clamp to min voltage */
+	}
+ 
+	APP_MOTOR0.Vq_Ext = volt; /* update the voltage command */
+}
+/*********************
+************************************************************************************************/

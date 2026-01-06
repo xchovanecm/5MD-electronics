@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oszixml version="1.1.0">
+    <checksum>a54fab2eec80c82bd863e3908ef70766b53c687adcf9c8be409153dd5eccb3bc</checksum>
+    <Settings>
+        <BinaryFile></BinaryFile>
+        <ParameterFile>MotionControlEngine_parameter.pxml</ParameterFile>
+        <SelectedInterface>UART</SelectedInterface>
+        <StartScript></StartScript>
+        <BGColor>#000000</BGColor>
+        <ActMinY>0</ActMinY>
+        <ActMaxY>0</ActMaxY>
+        <ScaleHorz>0</ScaleHorz>
+        <PosHorz>0</PosHorz>
+        <HorzTime>10</HorzTime>
+        <ShowTooltips>0</ShowTooltips>
+        <AlwaysOnTop>0</AlwaysOnTop>
+        <BringToFront>0</BringToFront>
+        <LoadLastProject>1</LoadLastProject>
+        <TriggerMode>1</TriggerMode>
+        <LogCommunication>2</LogCommunication>
+        <TabbedView>0</TabbedView>
+        <Server IP="127.0.0.1" Port="50051"/>
+        <Segger HostIF="USB" SerialNo="591147226" Speed="" Host="" SettingsFile="" Device=""/>
+        <UART Port="COM3" Baudrate="1000000" DataBits="8" Parity="None" Stopbits="1" Handshake="None"/>
+        <USB VendorID="" ProductID=""/>
+        <Ethernet IPAddress="" Port=""/>
+        <CAN Baudrate="500 kBit/s"/>
+        <LIN Baudrate="300"/>
+        <I2C Baudrate="300" Address=""/>
+        <SPI Baudrate="1 MBit/s" ClockLevelReceiveEdge="Clocklevel low / rising edge" LSBFirst="0" Wordlength="1 Byte"/>
+    </Settings>
+    <Channels>
+        <Channel>
+            <nr>0</nr>
+            <enabled>1</enabled>
+            <symbol>Sig.APP_PFC.APP_PFC.IL_Avg.S_PFC_IL_A</symbol>
+            <alias>APP_PFC.IL_Avg</alias>
+            <address>30b</address>
+            <type>Unknown</type>
+            <gain>0</gain>
+            <offset>0</offset>
+            <unit>A</unit>
+            <formula></formula>
+            <acqmode>0</acqmode>
+            <interval>0</interval>
+            <width>1</width>
+            <color>#ff0000</color>
+            <linestyle>1</linestyle>
+        </Channel>
+        <Channel>
+            <nr>1</nr>
+            <enabled>1</enabled>
+            <symbol>Sig.APP_PFC.APP_PFC.IL.S_PFC_IL_A</symbol>
+            <alias>APP_PFC.IL</alias>
+            <address>305</address>
+            <type>Unknown</type>
+            <gain>0</gain>
+            <offset>0</offset>
+            <unit>A</unit>
+            <formula></formula>
+            <acqmode>0</acqmode>
+            <interval>0</interval>
+            <width>1</width>
+            <color>#00ff00</color>
+            <linestyle>1</linestyle>
+        </Channel>
+        <Channel>
+            <nr>2</nr>
+            <enabled>1</enabled>
+            <symbol>Sig.APP_PFC.APP_PFC.VAC.S_PFC_VAC_V</symbol>
+            <alias>APP_PFC.VAC</alias>
+            <address>306</address>
+            <type>Unknown</type>
+            <gain>0</gain>
+            <offset>0</offset>
+            <unit>V</unit>
+            <formula></formula>
+            <acqmode>0</acqmode>
+            <interval>0</interval>
+            <width>1</width>
+            <color>#ffaaff</color>
+            <linestyle>1</linestyle>
+        </Channel>
+        <Channel>
+            <nr>3</nr>
+            <enabled>1</enabled>
+            <symbol>Sig.APP_PFC.APP_PFC.AbsVAC.S_PFC_VAC_V</symbol>
+            <alias>APP_PFC.AbsVAC</alias>
+            <address>308</address>
+            <type>Unknown</type>
+            <gain>0</gain>
+            <offset>0</offset>
+            <unit>V</unit>
+            <formula></formula>
+            <acqmode>0</acqmode>
+            <interval>0</interval>
+            <width>1</width>
+            <color>#00ffff</color>
+            <linestyle>1</linestyle>
+        </Channel>
+        <Channel>
+            <nr>4</nr>
+            <enabled>1</enabled>
+            <symbol>Sig.APP_PFC.APP_PFC.Vout.S_PFC_Vout_V</symbol>
+            <alias>APP_PFC.Vout</alias>
+            <address>307</address>
+            <type>Unknown</type>
+            <gain>0</gain>
+            <offset>0</offset>
+            <unit>V</unit>
+            <formula></formula>
+            <acqmode>0</acqmode>
+            <interval>0</interval>
+            <width>1</width>
+            <color>#ff00ff</color>
+            <linestyle>1</linestyle>
+        </Channel>
+        <Channel>
+            <nr>5</nr>
+            <enabled>1</enabled>
+            <symbol>Sig.APP_PFC.FB_PFC_PR_VCOMP.VEAout_Ext.S_DIRECT</symbol>
+            <alias>FB_PFC_PR_VCOMP.VEAout_Ext</alias>
+            <address>2a01</address>
+            <type>Unknown</type>
+            <gain>0</gain>
+            <offset>0</offset>
+            <unit></unit>
+            <formula></formula>
+            <acqmode>0</acqmode>
+            <interval>0</interval>
+            <width>1</width>
+            <color>#808000</color>
+            <linestyle>1</linestyle>
+        </Channel>
+        <Channel>
+            <nr>6</nr>
+            <enabled>1</enabled>
+            <symbol>Sig.APP_PFC.APP_PFC.VAC_SQ_Filt_VFF.S_PFC_VAC_SQ_VFF_V2</symbol>
+            <alias>APP_PFC.VAC_SQ_Filt_VFF</alias>
+            <address>315</address>
+            <type>Unknown</type>
+            <gain>0</gain>
+            <offset>0</offset>
+            <unit>V</unit>
+            <formula></formula>
+            <acqmode>0</acqmode>
+            <interval>0</interval>
+            <width>1</width>
+            <color>#800000</color>
+            <linestyle>1</linestyle>
+        </Channel>
+        <Channel>
+            <nr>7</nr>
+            <enabled>1</enabled>
+            <symbol>Sig.APP_PFC.APP_PFC.VAC_SQ_VFF.S_PFC_VAC_SQ_VFF_V2</symbol>
+            <alias>APP_PFC.VAC_SQ_VFF</alias>
+            <address>314</address>
+            <type>Unknown</type>
+            <gain>0</gain>
+            <offset>0</offset>
+            <unit>V</unit>
+            <formula></formula>
+            <acqmode>0</acqmode>
+            <interval>0</interval>
+            <width>1</width>
+            <color>#800080</color>
+            <linestyle>1</linestyle>
+        </Channel>
+        <Channel>
+            <nr>8</nr>
+            <enabled>1</enabled>
+            <symbol>Sig.APP_PFC.APP_PFC.VAC_SQ_Filt_RCP_VFF.S_DIRECT</symbol>
+            <alias>APP_PFC.VAC_SQ_Filt_RCP_VFF</alias>
+            <address>316</address>
+            <type>Unknown</type>
+            <gain>0</gain>
+            <offset>0</offset>
+            <unit></unit>
+            <formula></formula>
+            <acqmode>0</acqmode>
+            <interval>0</interval>
+            <width>1</width>
+            <color>#55aaff</color>
+            <linestyle>1</linestyle>
+        </Channel>
+        <Channel>
+            <nr>9</nr>
+            <enabled>1</enabled>
+            <symbol>Sig.APP_PFC.APP_PFC.IL_Ref.S_PFC_IL_A</symbol>
+            <alias>APP_PFC.IL_Ref</alias>
+            <address>319</address>
+            <type>Unknown</type>
+            <gain>0</gain>
+            <offset>0</offset>
+            <unit>A</unit>
+            <formula></formula>
+            <acqmode>0</acqmode>
+            <interval>0</interval>
+            <width>1</width>
+            <color>#555500</color>
+            <linestyle>1</linestyle>
+        </Channel>
+    </Channels>
+    <Panels>
+        <Panel>
+            <name></name>
+            <DispMode>0</DispMode>
+            <X_Y_X></X_Y_X>
+            <X_Y_Y></X_Y_Y>
+            <ScaleHorz>13</ScaleHorz>
+            <PosHorz>0</PosHorz>
+            <AxisCoupled>0</AxisCoupled>
+            <CursorsCoupled>0</CursorsCoupled>
+            <CursorsLocked>0</CursorsLocked>
+            <BGColor>#000000</BGColor>
+            <GridColor>#ffffff</GridColor>
+            <GridX>5</GridX>
+            <GridY>7</GridY>
+            <geometry x="81" y="75" width="676" height="405"/>
+            <EnabledCurves>1111111111</EnabledCurves>
+        </Panel>
+    </Panels>
+    <Trigger>
+        <SelectedTrigger>1</SelectedTrigger>
+        <General TriggerSource="0" HorzPos="50" Holdoff="1"/>
+        <IPC ClkDiv="1" NumBlk="38" ClkSrc="0" ClkDivSample="1" Timeout="1" SampleEvent="10000000" StreamEvent="00000000">
+            <Events>
+                <Event Nr="0" Function="3" SignalX="APP_PFC.VAC" SignalY="" Threshold="18" Enabled="1" Show="0" Name=""/>
+                <Event Nr="1" Function="0" SignalX="" SignalY="" Threshold="0" Enabled="0" Show="0" Name=""/>
+                <Event Nr="2" Function="0" SignalX="" SignalY="" Threshold="0" Enabled="0" Show="0" Name=""/>
+                <Event Nr="3" Function="0" SignalX="" SignalY="" Threshold="0" Enabled="0" Show="0" Name=""/>
+                <Event Nr="4" Function="0" SignalX="" SignalY="" Threshold="0" Enabled="0" Show="0" Name=""/>
+                <Event Nr="5" Function="0" SignalX="" SignalY="" Threshold="0" Enabled="0" Show="0" Name=""/>
+                <Event Nr="6" Function="0" SignalX="" SignalY="" Threshold="0" Enabled="0" Show="0" Name=""/>
+                <Event Nr="7" Function="0" SignalX="" SignalY="" Threshold="0" Enabled="0" Show="0" Name=""/>
+            </Events>
+        </IPC>
+        <Edge EdgeSubtype="0" EdgeLevel="1"/>
+        <Pulse PulseCondition="-1" PulseLowerLimit="100" PulseUpperLimit="1"/>
+        <Slope SlopeCondition="0" SlopeLowerLimit="1" SlopeUpperLimit="1" SlopeLowerLevel="1" SlopeUpperLevel="100"/>
+        <Pattern PatternHLXPN0="-1" PatternHLXPN1="-1" PatternHLXPN2="0" PatternHLXPN3="0" PatternHLXPN4="-1" PatternHLXPN5="-1" PatternHLXPN6="-1" PatternHLXPN7="-1" PatternHLXPN8="0" PatternHLXPN9="0" PatternHLXPN10="0" PatternHLXPN11="0" PatternHLXPN12="0" PatternHLXPN13="0" PatternHLXPN14="0" PatternHLXPN15="0" PatternHLXPN16="0" PatternHLXPN17="0" PatternHLXPN18="0" PatternHLXPN19="0" PatternHLXPN20="0" PatternHLXPN21="0" PatternHLXPN22="0" PatternHLXPN23="0" PatternHLXPN24="0" PatternHLXPN25="0" PatternHLXPN26="0" PatternHLXPN27="0" PatternHLXPN28="0" PatternHLXPN29="0" PatternHLXPN30="0" PatternHLXPN31="0"/>
+        <Duration DurationHLX0="-1" DurationCondition0="-1" DurationLowerLimit0="99" DurationUpperLimit0="99" DurationHLX1="0" DurationCondition1="0" DurationLowerLimit1="0" DurationUpperLimit1="0" DurationHLX2="-1" DurationCondition2="-1" DurationLowerLimit2="0" DurationUpperLimit2="0" DurationHLX3="0" DurationCondition3="0" DurationLowerLimit3="99" DurationUpperLimit3="99" DurationHLX4="-1" DurationCondition4="-1" DurationLowerLimit4="99" DurationUpperLimit4="0" DurationHLX5="0" DurationCondition5="0" DurationLowerLimit5="0" DurationUpperLimit5="99" DurationHLX6="-1" DurationCondition6="-1" DurationLowerLimit6="0" DurationUpperLimit6="0" DurationHLX7="-1" DurationCondition7="-1" DurationLowerLimit7="99" DurationUpperLimit7="0" DurationHLX8="0" DurationCondition8="0" DurationLowerLimit8="0" DurationUpperLimit8="0" DurationHLX9="0" DurationCondition9="0" DurationLowerLimit9="0" DurationUpperLimit9="0" DurationHLX10="0" DurationCondition10="0" DurationLowerLimit10="0" DurationUpperLimit10="0" DurationHLX11="0" DurationCondition11="0" DurationLowerLimit11="0" DurationUpperLimit11="0" DurationHLX12="0" DurationCondition12="0" DurationLowerLimit12="0" DurationUpperLimit12="0" DurationHLX13="0" DurationCondition13="0" DurationLowerLimit13="0" DurationUpperLimit13="0" DurationHLX14="0" DurationCondition14="0" DurationLowerLimit14="0" DurationUpperLimit14="0" DurationHLX15="0" DurationCondition15="0" DurationLowerLimit15="0" DurationUpperLimit15="0" DurationHLX16="0" DurationCondition16="0" DurationLowerLimit16="0" DurationUpperLimit16="0" DurationHLX17="0" DurationCondition17="0" DurationLowerLimit17="0" DurationUpperLimit17="0" DurationHLX18="0" DurationCondition18="0" DurationLowerLimit18="0" DurationUpperLimit18="0" DurationHLX19="0" DurationCondition19="0" DurationLowerLimit19="0" DurationUpperLimit19="0" DurationHLX20="0" DurationCondition20="0" DurationLowerLimit20="0" DurationUpperLimit20="0" DurationHLX21="0" DurationCondition21="0" DurationLowerLimit21="0" DurationUpperLimit21="0" DurationHLX22="0" DurationCondition22="0" DurationLowerLimit22="0" DurationUpperLimit22="0" DurationHLX23="0" DurationCondition23="0" DurationLowerLimit23="0" DurationUpperLimit23="0" DurationHLX24="0" DurationCondition24="0" DurationLowerLimit24="0" DurationUpperLimit24="0" DurationHLX25="0" DurationCondition25="0" DurationLowerLimit25="0" DurationUpperLimit25="0" DurationHLX26="0" DurationCondition26="0" DurationLowerLimit26="0" DurationUpperLimit26="0" DurationHLX27="0" DurationCondition27="0" DurationLowerLimit27="0" DurationUpperLimit27="0" DurationHLX28="0" DurationCondition28="0" DurationLowerLimit28="0" DurationUpperLimit28="0" DurationHLX29="0" DurationCondition29="0" DurationLowerLimit29="0" DurationUpperLimit29="0" DurationHLX30="0" DurationCondition30="0" DurationLowerLimit30="0" DurationUpperLimit30="0" DurationHLX31="0" DurationCondition31="0" DurationLowerLimit31="0" DurationUpperLimit31="0"/>
+        <SetupHold SetupHoldDataChannel="-1" SetupHoldClockChannel="0" SetupHoldEdgeType="-1" SetupHoldDatatype="-1" SetupHoldSetupType="-1" SetupHoldSetupTime="1" SetupHoldHoldTime="1"/>
+        <Timeout TimeoutEdgeType="-1" TimeoutTimeout="100"/>
+        <Runt RuntPolarity="0" RuntCondition="-1" RuntUpperLevel="100" RuntLowerLevel="100"/>
+        <Window WindowWindowType="-1" WindowTriggerPos="-1" WindowHoldTime="1"/>
+        <Delay DelayDelayTime="-1" DelayChannelA="0" DelayChannelB="-1" DelayEdgeTypeA="0" DelayEdgeTypeB="-1" DelayLowerLimit="1" DelayUpperLimit="1"/>
+    </Trigger>
+</oszixml>

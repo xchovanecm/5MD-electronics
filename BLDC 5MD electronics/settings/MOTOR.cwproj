@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project ProjectName="5MD" ProjectDescription="Motor Control" DefaultModule="main">
+    <Domain Name="Common" Description="The common domain" Singleton="True">
+        <Instance Name="main" Description="Solution Designer" Filename="Common_main" Modulename="cw_main"/>
+        <Instance Name="dashboard" Description="Online dashboard" Filename="Common_dashboard" Modulename="cwd_dashboard"/>
+        <Instance Name="mceos" Description="MCE global settings" Filename="Common_mceos" Modulename="cwm_MCEOS"/>
+    </Domain>
+    <Domain Name="myFirstParameterSet" Description="my First Parameter Set" Singleton="False">
+        <Instance Name="system" Description="APP_SYSTEMCONTROL" Filename="myFirstParameterSet_system" Modulename="cwm_APP_SYSTEMCONTROL"/>
+        <Instance Name="motor" Description="APP_MOTOR0" Filename="myFirstParameterSet_motor" Modulename="cwm_APP_MOTOR0"/>
+        <Instance Name="pfc" Description="APP_PFC" Filename="myFirstParameterSet_pfc" Modulename="cwm_APP_PFC"/>
+        <Instance Name="solution" Description="iMOTION Solution Configuration" Filename="myFirstParameterSet_solution" Modulename="cwm_iMOTIONMOTOR"/>
+    </Domain>
+</Project>

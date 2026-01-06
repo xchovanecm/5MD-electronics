@@ -1,0 +1,115 @@
+<library type="project" major="5" minor="04" patch="03" build_date="2025-05-12T11:32:26+08:00" unique_id="iMOTION_SD_V5.04.03" display_name="iMOTION_SD V5.04.03">
+  <mcs_compatible_version major="1" minimum_minor="3" minimum_patch="3" />
+  <additionalFiles>
+  </additionalFiles>
+  <releaseNotes />
+  <dependencies />
+  <description>  
+<![CDATA[<html>
+<style>
+.title {
+  font-family: "Source Sans Pro",Arial,sans-serif;
+  color: #644f54;
+  font-weight: 300;
+  font-size: 35px;
+  line-height: 38px;
+  margin-top: 0;
+  margin-bottom: 18px;
+}
+.meta {
+    color: #928285;
+    margin: 0 0 0 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.list-heading {
+  font-weight: 400;
+}
+h1
+{
+  font-family: "Source Sans Pro",Arial,sans-serif;
+  color: #644f54;
+  margin-top: 0px;
+  margin-bottom: 6px;
+  font-weight: 300;
+  font-size: 35px;
+  line-height: 38px;
+}
+h2
+{
+  font-family: "Source Sans Pro",Arial,sans-serif;
+  color: #644f54;
+  margin-top: 0px;
+  margin-bottom: 6px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+}
+h3
+{
+  font-family: "Source Sans Pro",Arial,sans-serif;
+  color: #644f54;
+  margin-top: 0px;
+  margin-bottom: 6px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 21px;
+}
+p {
+  font-family: "Source Sans Pro",Arial,sans-serif;
+  font-size: 16px;
+  line-height: 21px;
+  margin-top: 0px;
+  margin-bottom: 12px;
+  font-weight: 400;
+}
+body {
+  font-family: "Source Sans Pro",Arial,sans-serif;
+  margin-top: 0px;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.3125;
+  color: #333;
+}
+a {
+  font-family: "Source Sans Pro",Arial,sans-serif;
+  font-weight: 600;
+  color: #005da9;
+  text-decoration: none;
+}
+ul {
+  font-family: "Source Sans Pro",Arial,sans-serif;
+  font-size:16px;
+  line-height: 21px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0 1em 1em 1ex;
+}
+li {
+  font-family: "Source Sans Pro",Arial,sans-serif;
+  font-size:16px;
+  line-height: 21px;
+  margin-top: 0px;
+  margin-bottom: 6px;
+}
+</style>
+<body>
+<p class="title">Project Package</p>
+<h1>iMOTION_SD_V5.04.03.sdpack</h1>
+<p class="meta">V5.04.03</p>
+<p>This project package provides a complete software solution for iMOTION products, addressing sensor based and senor less Field Oriented Control of 3-phase Permanent Magnet Synchronous Motors.  This software primarily targets small and major home appliance drives like fans, pumps and compressors.</p>
+<h2 class='list-heading'>Feature List:</h2>
+<ul> 
+ <li>High performance sensor less Field Oriented Control (FOC) of Permanent Magnet Synchronous Motor with robust start-up mechanisms</li>  
+ <li>HALL sensor based Field Oriented Control for Permanent Magnet Synchronous Motor</li>  
+ <li>Easy to use Power Factor Correction (PFC) algorithm for single phase boost topology</li>  
+ <li>MADK eval board configurations</li> 
+</ul>
+<p/></body>
+</html>  ]]>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+</description>
+</library>
